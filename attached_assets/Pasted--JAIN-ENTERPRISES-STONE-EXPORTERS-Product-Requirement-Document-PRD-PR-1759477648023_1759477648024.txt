@@ -1,0 +1,1497 @@
+
+# 🏛️ JAIN ENTERPRISES - STONE EXPORTERS
+## Product Requirement Document (PRD)
+
+---
+
+## 📋 PROJECT OVERVIEW
+
+**Project Name:** Jain Enterprises Corporate Website  
+**Industry:** Stone Export & Manufacturing  
+**Type:** Multi-page Corporate Website (5 Pages)  
+**Target Audience:** B2B Clients, Architects, Interior Designers, Construction Companies  
+**Brand Personality:** Premium, Trustworthy, Craftsmanship-focused, Professional
+
+---
+
+## 🎨 DESIGN SYSTEM & VISUAL IDENTITY
+
+### Color Palette
+- **Primary Background:** Gradient marble texture - Soft white (#FAFAFA) transitioning to cool grey (#E8E8E8)
+- **Secondary Background:** Dusky sandstone gradient (#F5F1ED to #E6DDD5)
+- **Accent Color:** Deep charcoal (#2C2C2C) for text
+- **Highlight Color:** Warm gold/bronze (#C9A86A) for CTAs and highlights
+- **Card Backgrounds:** White with subtle shadow (rgba(0,0,0,0.08))
+
+### Typography
+- **Headings:** Playfair Display / Cormorant Garamond (Serif - Premium feel)
+  - H1: 48-56px, Bold
+  - H2: 36-42px, Semi-bold
+  - H3: 28-32px, Medium
+- **Body Text:** Inter / Poppins (Sans-serif - Clean readability)
+  - Body: 16-18px, Regular
+  - Small: 14px, Regular
+
+### Design Principles
+- **Spacing:** Generous whitespace (padding: 80-120px vertical sections)
+- **Shadows:** Subtle, elegant (0 4px 20px rgba(0,0,0,0.06))
+- **Border Radius:** 12-16px for cards, 8px for buttons
+- **Animations:** Smooth transitions (300-500ms ease-in-out)
+- **Glass-morphism effects** on overlays where applicable
+
+---
+
+## 🧭 NAVIGATION STRUCTURE
+
+### Header/Navbar (Fixed on scroll)
+**Layout:** Horizontal, sticky top navigation
+
+**Left Section:**
+- **Logo:** Jain Enterprises logo (SVG format, height: 60px)
+- Logo text: "JAIN ENTERPRISES" with tagline "Stone Exporters" below in smaller font
+
+**Right Section - Navigation Menu:**
+```
+[Home] [About] [Gallery] [Process] [Contact Us]
+```
+
+**Specifications:**
+- Background: Semi-transparent white with backdrop-blur (glassmorphism)
+- Height: 80px
+- Nav Links: 16px, Medium weight, #2C2C2C
+- Hover State: Gold underline animation (2px thick, 300ms)
+- Active State: Gold text color with underline
+- Mobile: Hamburger menu (slide-in drawer from right)
+- Shadow on scroll: 0 2px 12px rgba(0,0,0,0.08)
+
+---
+
+## 📄 PAGE-BY-PAGE SPECIFICATIONS
+
+---
+
+## 🏠 PAGE 1: HOME PAGE
+
+### Section 1: Hero Section with Entry Animation
+**Layout:** Full viewport height (100vh)
+
+**Components:**
+
+**A. Brand Logo Entry Animation (First 2 seconds)**
+- Center-aligned Jain Enterprises logo
+- Animation: Scale up from 0.5 to 1.2, then settle to 1 with fade-in (2s duration)
+- Background: Full marble gradient background
+
+**B. Hero Carousel (After logo animation)**
+- **Carousel Container:** Full-width, height: 85vh
+- **Number of Slides:** 3-4 main product categories
+- **Each Slide Contains:**
+  - High-resolution stone product image (1920x1080px)
+  - Overlay gradient: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5))
+  - Centered content:
+    - Product Category Name (H1, white, bold, 56px)
+    - Subtle tagline (18px, white, light)
+    - CTA Button: "Explore Collection" (Gold, 48px padding horizontal, 16px vertical)
+
+**Carousel Controls:**
+- Navigation Dots: Bottom center, 12px circles, gold active state
+- Arrow Navigation: Left/Right arrows on hover (40px icons, white)
+- Auto-play: 5 seconds interval
+- Smooth fade transition (800ms)
+
+---
+
+### Section 2: Introduction Section
+**Layout:** Container (max-width: 1200px), centered, padding: 100px 0
+
+**Structure:**
+
+**Heading Area:**
+- H2: "Crafting Excellence in Stone" (center-aligned, 42px)
+- Decorative divider: Gold line, 80px width, 3px height, centered below heading
+
+**Content Grid: 2 Columns (Desktop) / 1 Column (Mobile)**
+
+**Left Column:**
+- Paragraph 1: Company introduction (18px, line-height: 1.8, #2C2C2C)
+  - "For over [X] years, Jain Enterprises has been a trusted name in premium stone exports..."
+- Paragraph 2: Value proposition
+  - Key strengths, quality assurance mention
+- CTA Button: "Learn More About Us" (links to About page)
+
+**Right Column:**
+- Featured Image: Factory/warehouse image or premium stone showcase
+- Image dimensions: 600x400px
+- Border-radius: 16px
+- Subtle shadow effect
+
+---
+
+### Section 3: Quick Stats/USP Section
+**Layout:** Full-width, background: Dusky sandstone gradient, padding: 80px 0
+
+**Grid: 4 Columns (2x2 on tablet, 1 column mobile)**
+
+Each stat card:
+- Icon: Relevant icon (50px)
+- Number: Large, bold (48px) with count-up animation on scroll
+- Label: Description below (16px)
+
+**Stats examples:**
+- Years of Experience
+- Stone Varieties
+- Countries Exported To
+- Satisfied Clients
+
+**Design:**
+- Cards: White background, 20px padding, border-radius: 12px
+- Hover effect: Lift up 5px with shadow increase
+- Center-aligned content
+
+---
+
+### Section 4: Featured Products Preview
+**Layout:** Container (max-width: 1400px), padding: 100px 0
+
+**Heading:** "Our Premium Collections" (H2, center-aligned)
+
+**Grid: 4 Cards in a row (2x2 tablet, 1 column mobile)**
+
+**Each Product Card:**
+- Image: 350x350px, object-fit: cover
+- Product category name overlay (H3, white, bottom-left)
+- Gradient overlay on image
+- Hover effect: 
+  - Image zoom (scale: 1.1, smooth)
+  - "View Gallery" button appears (fade-in from bottom)
+- Border-radius: 16px
+- Shadow: 0 6px 24px rgba(0,0,0,0.1)
+
+---
+
+### Section 5: Call-to-Action Banner
+**Layout:** Full-width, height: 400px, background: Dark overlay on stone texture
+
+**Content (centered):**
+- H2: "Ready to Transform Your Space?" (white, 42px)
+- Subtext: "Get in touch with our stone experts" (white, 18px, light)
+- Button: "Contact Us Today" (Gold, prominent, 56px horizontal padding)
+
+---
+
+## 📍 FOOTER (Consistent across all pages)
+
+**Layout:** Full-width, background: #2C2C2C (Dark charcoal), color: white
+
+**Structure: 3 Column Grid**
+
+**Column 1: Brand & Description**
+- Jain Enterprises Logo (white version)
+- Brief tagline/description (2-3 lines)
+- Social media icons (if applicable)
+
+**Column 2: Quick Links**
+- Heading: "Quick Links" (Gold, 18px, semi-bold)
+- Links arranged vertically:
+  - Home
+  - About Us
+  - Gallery
+  - Process
+  - Contact Us
+- Hover state: Gold color
+
+**Column 3: Contact Information**
+- Heading: "Get In Touch" (Gold, 18px)
+- Phone icon + number
+- Email icon + email address
+- Location icon + address
+
+**Bottom Bar:**
+- Full-width, border-top: 1px solid rgba(255,255,255,0.1)
+- Text: "© 2025 Jain Enterprises. All Rights Reserved."
+- Font-size: 14px, center-aligned
+- Padding: 20px 0
+
+---
+
+## 📖 PAGE 2: ABOUT PAGE
+
+### Section 1: Hero Banner
+**Layout:** Full-width, height: 500px
+
+**Content:**
+- **Background Image:** Factory/Facility photograph (high-quality, 1920x1080)
+- **Overlay:** Dark gradient (rgba(0,0,0,0.4) to rgba(0,0,0,0.6))
+- **Text (centered, overlaid):**
+  - H1: "About Jain Enterprises" (white, 56px, bold)
+  - Breadcrumb: Home > About (white, 14px, top-right)
+
+---
+
+### Section 2: Company Story Section
+**Layout:** Container (max-width: 1200px), padding: 100px 0
+
+**Content Structure:**
+
+**Heading:** "Our Story" (H2, 42px, center-aligned)
+**Decorative divider** (gold line)
+
+**Timeline-style Layout:**
+
+**Block 1: The Beginning**
+- Year badge (H3, gold, "EST. [YEAR]")
+- Paragraph: Company founding story (18px, line-height: 1.8)
+- Supporting image (400x300px, floated right, border-radius: 12px)
+
+**Block 2: Growth & Evolution**
+- Paragraph: How the company evolved, milestones
+- Supporting image (400x300px, floated left)
+
+**Block 3: Today & Future**
+- Paragraph: Current operations, vision
+- Supporting image (400x300px, floated right)
+
+**Visual Treatment:**
+- Vertical timeline line on the left (3px gold)
+- Timeline dots at each block (16px circles, gold)
+- Generous spacing between blocks (80px)
+
+---
+
+### Section 3: Values Section
+**Layout:** Full-width, background: Dusky sandstone gradient, padding: 80px 0
+
+**Heading:** "What Drives Us" (H2, center-aligned)
+
+**Grid: 3 Columns (1 column mobile)**
+
+**Each Value Card:**
+- Icon (60px, gold)
+- Value Title (H3, 24px, bold)
+- Description paragraph (16px, 4-5 lines)
+- Background: White card with shadow
+- Padding: 40px
+- Border-radius: 12px
+- Hover: Subtle lift effect
+
+**Values examples:**
+- Quality Craftsmanship
+- Sustainable Practices
+- Customer Commitment
+
+---
+
+### Section 4: Image Gallery Showcase
+**Layout:** Container (max-width: 1400px), padding: 100px 0
+
+**Heading:** "Our Facilities & Process" (H2, center-aligned)
+
+**Creative Masonry Grid Layout:**
+- Mix of different sized image blocks
+- 6-8 images total
+- Images include: Factory floor, machinery, finished products, team at work
+- Hover effect: Zoom + caption appears
+- Caption: Brief description of what's shown (white text on dark overlay)
+
+**Grid Pattern (Desktop):**
+```
+[Large - 2x2] [Small]     [Medium]
+[Large - 2x2] [Small]     [Medium]
+[Medium]      [Medium]    [Large - 2x2]
+```
+
+**Image Treatment:**
+- Border-radius: 12px
+- Shadow on hover
+- Gap between images: 20px
+
+---
+
+### Section 5: Team/Leadership (Optional)
+**Layout:** Container, padding: 80px 0
+
+**Heading:** "Leadership Team" (H2, center-aligned)
+
+**Grid: 3-4 Columns**
+
+**Each Profile Card:**
+- Circular profile photo (200x200px)
+- Name (H3, 20px, bold)
+- Designation (16px, gold)
+- LinkedIn icon (optional)
+- Background: White card, center-aligned content
+
+---
+
+## 📞 PAGE 3: CONTACT US
+
+### Section 1: Hero Header
+**Layout:** Height: 300px, full-width
+
+**Content:**
+- Background: Marble gradient
+- H1: "Get In Touch" (center-aligned, 48px)
+- Subtext: "We'd love to hear from you" (18px, center-aligned)
+
+---
+
+### Section 2: Contact Form Section
+**Layout:** Container (max-width: 1400px), padding: 100px 0
+
+**Grid: 2 Columns (1 column mobile)**
+
+---
+
+**LEFT COLUMN: Contact Form**
+
+**Form Container:**
+- Background: White card
+- Padding: 60px
+- Border-radius: 16px
+- Shadow: 0 8px 32px rgba(0,0,0,0.08)
+
+**Form Fields:**
+
+1. **Name Field**
+   - Label: "Full Name" (14px, semi-bold, above field)
+   - Input: Text field
+   - Placeholder: "Enter your full name"
+   - Height: 50px
+   - Border: 1px solid #E0E0E0
+   - Border-radius: 8px
+   - Padding: 0 20px
+   - Focus state: Gold border (2px)
+
+2. **Phone Number Field**
+   - Label: "Phone Number"
+   - Input: Tel field with country code dropdown
+   - Placeholder: "+91 | Enter your phone number"
+   - Same styling as above
+
+3. **Email Field**
+   - Label: "Email Address"
+   - Input: Email field
+   - Placeholder: "your.email@example.com"
+   - Validation: Email format check
+   - Same styling as above
+
+4. **Query/Message Field**
+   - Label: "Your Message"
+   - Input: Textarea
+   - Placeholder: "Tell us about your requirements..."
+   - Height: 150px
+   - Border-radius: 8px
+   - Padding: 20px
+   - Resize: Vertical only
+
+**Submit Button:**
+- Text: "Send Message"
+- Background: Gold (#C9A86A)
+- Color: White
+- Width: 100%
+- Height: 56px
+- Border-radius: 8px
+- Font-size: 18px, semi-bold
+- Hover effect: Darken by 10%
+- Active state: Scale down slightly (0.98)
+- Loading state: Spinner icon
+
+**Form Validation:**
+- Required fields marked with red asterisk
+- Real-time validation on blur
+- Error messages in red below fields
+- Success message: Green banner after submission
+
+---
+
+**RIGHT COLUMN: Contact Information & Map**
+
+**Contact Info Card:**
+- Background: Dusky sandstone gradient
+- Padding: 60px
+- Border-radius: 16px
+
+**Information Blocks:**
+
+1. **Phone**
+   - Icon: Phone icon (24px, gold)
+   - Label: "Call Us"
+   - Number(s): Display format with country code
+   - Clickable (tel: link)
+
+2. **Email**
+   - Icon: Envelope icon (24px, gold)
+   - Label: "Email Us"
+   - Email address(es)
+   - Clickable (mailto: link)
+
+3. **Address**
+   - Icon: Location pin icon (24px, gold)
+   - Label: "Visit Us"
+   - Full address (multi-line)
+
+4. **Business Hours**
+   - Icon: Clock icon (24px, gold)
+   - Label: "Working Hours"
+   - Timings (Mon-Sat: 9:00 AM - 6:00 PM)
+
+**Spacing:** 40px between each info block
+
+---
+
+**Embedded Map (Below info card):**
+- Google Maps iframe
+- Height: 400px
+- Width: 100%
+- Border-radius: 16px
+- Margin-top: 40px
+- Interactive map with location marker
+
+---
+
+### Section 3: Additional CTA
+**Layout:** Full-width, padding: 80px 0, background: White
+
+**Content (centered):**
+- H2: "Prefer Direct Communication?"
+- Paragraph: "Our team is available on WhatsApp for quick queries"
+- WhatsApp Button: Green, with WhatsApp icon
+- Phone Call Button: Gold, with phone icon
+
+---
+
+## 🖼️ PAGE 4: GALLERY (Most Important Page)
+
+### Section 1: Hero Carousel with Descriptions
+**Layout:** Full-width, height: 600px
+
+**Carousel Specifications:**
+- 4-5 slides showcasing best work/projects
+- Each slide:
+  - Full-width background image (stone installations/products)
+  - Dark overlay (rgba(0,0,0,0.5))
+  - Content area (left-aligned or center):
+    - Project Title (H2, white, 42px)
+    - Project Description (white, 18px, 3-4 lines)
+    - Project Type/Category badge (gold background, white text)
+  - Navigation: Dots + Arrows
+  - Auto-play: 6 seconds
+
+---
+
+### Section 2: Product Categories Grid (MAIN SECTION)
+**Layout:** Container (max-width: 1600px), padding: 100px 0
+
+**Heading:** "Explore Our Collections" (H2, 48px, center-aligned)
+**Subheading:** "Click on any category to view our extensive range" (18px, light, center)
+
+---
+
+### **CREATIVE GRID LAYOUT (4 Category Cards)**
+
+**Layout Pattern (Desktop):**
+```
+[CARD 1 - Large]          [CARD 2 - Medium]
+    (600x600px)              (500x500px)
+
+[CARD 3 - Medium]         [CARD 4 - Large]
+    (500x500px)              (600x600px)
+```
+
+**Alternating heights create visual interest**
+
+**Staggered/Offset positioning:**
+- Card 2 slightly pushed down (80px margin-top)
+- Card 3 slightly pushed up
+- Creates a dynamic, flowing layout
+
+---
+
+### **INDIVIDUAL CATEGORY CARD DESIGN:**
+
+**Card Container:**
+- Background: White
+- Border-radius: 20px
+- Shadow: 0 10px 40px rgba(0,0,0,0.12)
+- Overflow: hidden
+- Cursor: pointer
+- Transition: all 400ms ease
+
+**Card Image:**
+- Object-fit: cover, full card width/height
+- Overlay gradient: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.7) 100%)
+
+**Card Content (Overlay on bottom):**
+- Position: Absolute, bottom: 0
+- Padding: 40px
+- Category Name (H3, white, 32px, bold)
+- Product Count (white, 16px, light) - "View 24 Products"
+- Decorative icon: Arrow or chevron (white, 24px)
+
+**Hover State (IMPORTANT):**
+- Card lifts up: translateY(-12px)
+- Shadow intensifies: 0 20px 60px rgba(0,0,0,0.2)
+- Image scales up: scale(1.1)
+- Overlay darkens slightly
+- "Click to Explore" text fades in
+- Border: 3px solid gold appears
+- Cursor changes to pointer
+
+---
+
+### **4 CATEGORY EXAMPLES:**
+1. **Marble Collection**
+2. **Granite Collection**
+3. **Sandstone Collection**
+4. **Limestone Collection**
+
+---
+
+### **CATEGORY CARD CLICK → MODAL/POPUP OPENS**
+
+---
+
+## 🎭 PRODUCT CATALOGUE MODAL (Opens on category click)
+
+**Modal Specifications:**
+
+**Overlay:**
+- Background: rgba(0,0,0,0.85)
+- Backdrop-blur: 8px
+- z-index: 9999
+- Animation: Fade in (300ms)
+
+**Modal Container:**
+- Width: 90vw (max-width: 1400px)
+- Height: 85vh
+- Background: White
+- Border-radius: 24px
+- Position: Fixed, centered
+- Animation: Scale up from 0.9 to 1 + fade in (400ms)
+- Padding: 0 (content areas have their own padding)
+
+---
+
+### **MODAL LAYOUT:**
+
+**Grid: 2 Columns**
+
+---
+
+**LEFT COLUMN (60% width): Image Display Area**
+
+**Main Image Container:**
+- Width: 100%
+- Height: 70vh
+- Background: #F5F5F5 (light grey placeholder)
+- Border-radius: 16px 0 0 16px
+- Object-fit: contain (shows full product image)
+- Padding: 40px
+
+**Image Treatment:**
+- High-resolution product image (1200x1200px minimum)
+- Zoom functionality on hover (cursor: zoom-in)
+- Click to expand to full-screen lightbox
+
+**Navigation Controls (On image):**
+
+**Left Arrow Button:**
+- Position: Absolute, left: 20px, center-vertically
+- Size: 60px circle
+- Background: White with 60% opacity
+- Icon: Chevron-left (black, 32px)
+- Hover: Full opacity, shadow increase
+- Functionality: Navigate to previous product
+
+**Right Arrow Button:**
+- Position: Absolute, right: 20px, center-vertically
+- Same styling as left arrow
+- Icon: Chevron-right
+- Functionality: Navigate to next product
+
+**Keyboard Navigation:**
+- Arrow keys (left/right) also work
+- ESC key closes modal
+
+**Thumbnail Strip (Below main image):**
+- Height: 100px
+- Display: Horizontal scroll (if more than 6 images)
+- Each thumbnail: 80x80px, border-radius: 8px
+- Active thumbnail: Gold border (3px)
+- Gap between thumbnails: 12px
+- Click thumbnail to change main image
+- Smooth scroll behavior
+
+---
+
+**RIGHT COLUMN (40% width): Product Information Panel**
+
+**Panel Background:** White
+**Padding:** 60px 40px
+**Overflow:** Scroll (if content exceeds height)
+
+**Close Button:**
+- Position: Absolute, top-right of modal
+- Size: 48px circle
+- Icon: X/Close (24px, black)
+- Background: White
+- Hover: Background turns light grey
+- Click: Closes modal
+
+**Content Structure:**
+
+1. **Category Badge**
+   - Background: Gold with 20% opacity
+   - Color: Dark gold
+   - Padding: 8px 20px
+   - Border-radius: 20px
+   - Font-size: 14px, semi-bold
+   - Text: Category name (e.g., "MARBLE")
+
+2. **Product Name**
+   - H2: Product specific name (32px, bold, dark charcoal)
+   - Margin-top: 20px
+   - Example: "Statuario White Marble"
+
+3. **Divider Line**
+   - 100% width, 1px, light grey
+   - Margin: 20px 0
+
+4. **Product Details Section**
+
+   **Color Information:**
+   - Label: "Available Colors" (16px, semi-bold)
+   - Color chips display:
+     - Each chip: 40x40px circle
+     - Display color swatch
+     - Border: 2px solid when selected
+     - Horizontal layout with 12px gap
+     - Tooltip on hover shows color name
+
+   **Dimensions/Specifications:**
+   - Label: "Specifications" (16px, semi-bold)
+   - List format:
+     - Available Sizes
+     - Thickness options
+     - Finish types (Polished, Honed, Brushed)
+   - Font-size: 15px, line-height: 1.6
+
+   **Origin/Source:**
+   - Label: "Origin" (16px, semi-bold)
+   - Text: Source location
+   - Font-size: 15px
+
+5. **Description Section**
+   - Label: "About This Stone" (16px, semi-bold)
+   - Paragraph: 4-5 lines describing the stone's characteristics, best use cases, unique features
+   - Font-size: 15px, line-height: 1.7
+   - Color: #555
+
+6. **Features/Highlights**
+   - Bullet points with checkmark icons (gold)
+   - 4-5 key features
+   - Font-size: 15px
+   - Examples:
+     - ✓ Water resistant
+     - ✓ Heat resistant
+     - ✓ Easy to maintain
+     - ✓ Premium quality
+
+7. **Action Buttons**
+   - Primary Button: "Request Quote"
+     - Background: Gold
+     - Width: 100%
+     - Height: 52px
+     - Border-radius: 8px
+     - Font-size: 16px, semi-bold
+     - Margin-bottom: 12px
+   
+   - Secondary Button: "Download Catalog"
+     - Background: White
+     - Border: 2px solid gold
+     - Color: Gold
+     - Width: 100%
+     - Height: 52px
+     - Border-radius: 8px
+
+8. **Product Counter**
+   - Position: Bottom of panel
+   - Text: "Product 5 of 24" (center-aligned, 14px, grey)
+   - Updates as user navigates
+
+---
+
+### **MODAL FUNCTIONALITY:**
+
+**Image Navigation:**
+- Click left/right arrows to cycle through products in that category
+- Smooth fade transition between images (400ms)
+- Product information updates automatically
+- Thumbnail strip scrolls to show active thumbnail
+- Infinite loop (after last product, goes to first)
+
+**Interaction States:**
+- Loading state: Skeleton/shimmer effect while image loads
+- Error state: Placeholder image if image fails to load
+- Empty state: "No more products" if category has no items
+
+**Responsive Behavior (Tablet/Mobile):**
+- Modal becomes full-screen
+- Single column layout (image on top, info below)
+- Image height: 50vh
+- Info panel scrollable below image
+- Touch swipe gestures for navigation
+
+---
+
+### **BACK TO GALLERY VIEW:**
+- Click close button
+- Click outside modal (on overlay)
+- Press ESC key
+- Animation: Modal scales down and fades out (300ms)
+
+---
+
+## ⚙️ PAGE 5: PROCESS
+
+### Section 1: Hero Header
+**Layout:** Height: 400px, full-width
+
+**Content:**
+- Background: Dark stone texture image
+- Overlay: Dark gradient
+- H1: "Our Process" (center-aligned, white, 56px)
+- Subtext: "From Quarry to Quality" (white, 20px)
+
+---
+
+### Section 2: Process Journey Section
+**Layout:** Container (max-width: 1400px), padding: 100px 0
+
+**Intro Text:**
+- H2: "How We Transform Raw Stone Into Premium Slabs" (center-aligned, 42px)
+- Paragraph: Brief introduction (center-aligned, 18px, max-width: 800px)
+- Margin-bottom: 80px
+
+---
+
+### **PROCESS STEPS LAYOUT:**
+
+**Vertical Timeline Design:**
+- Central vertical line (4px wide, gold color)
+- Alternating left-right layout for each step
+- Timeline dots (24px circles, gold) at each step
+- Connecting lines from dot to content card
+
+---
+
+### **INDIVIDUAL PROCESS STEP:**
+
+**Step Pattern (Alternates Left/Right):**
+
+**Step 1 (Content on RIGHT, Video on LEFT):**
+
+```
+[VIDEO IFRAME]  ●━━━━━  [CONTENT CARD]
+                ║
+```
+
+**Step 2 (Content on LEFT, Video on RIGHT):**
+
+```
+[CONTENT CARD]  ━━━━━●  [VIDEO IFRAME]
+                ║
+```
+
+---
+
+### **CONTENT CARD DESIGN:**
+
+**Card Container:**
+- Background: White
+- Width: 500px
+- Padding: 50px
+- Border-radius: 16px
+- Shadow: 0 8px 32px rgba(0,0,0,0.1)
+- Position: Relative
+
+**Step Number Badge:**
+- Position: Top-left corner (or top-right for right-aligned)
+- Size: 60px circle
+- Background: Gold
+- Color: White
+- Font-size: 28px, bold
+- Text: "01", "02", "03", etc.
+- Position: Absolute, top: -20px
+
+**Content:**
+
+1. **Process Heading** (H3, 28px, bold, dark charcoal)
+   - Examples:
+     - "Stone Extraction"
+     - "Initial Processing"
+     - "Cutting & Sizing"
+     - "Surface Treatment"
+     - "Quality Control"
+     - "Packaging & Export"
+
+2. **Description** (16px, line-height: 1.8, #555, 8-10 lines)
+   - Detailed explanation of this specific process
+   - What happens at this stage
+   - Equipment/techniques used
+   - Quality measures taken
+   - Timeframe (if relevant)
+
+3. **Key Highlights (Optional):**
+   - 2-3 bullet points with checkmark icons
+   - Font-size: 14px
+   - Margin-top: 20px
+
+---
+
+### **VIDEO IFRAME DESIGN:**
+
+**Video Container:**
+- Width: 600px
+- Height: 340px (16:9 aspect ratio)
+- Border-radius: 16px
+- Shadow: 0 8px 32px rgba(0,0,0,0.15)
+- Overflow: hidden
+
+**Iframe Specifications:**
+- Width: 100%
+- Height: 100%
+- Border: none
+- Allow: autoplay, encrypted-media
+- Loading: lazy
+- Placeholder: Thumbnail image before load
+
+**Video Thumbnail/Poster:**
+- Custom thumbnail image
+- Play button overlay (centered, 80px circle, semi-transparent white)
+- Hover effect: Play button grows slightly
+
+**Video Controls:**
+- Default YouTube/Vimeo controls visible
+- Responsive embed (maintains aspect ratio)
+
+---
+
+### **PROCESS STEPS (6-8 Steps):**
+
+**Step 1: Quarry Selection & Extraction**
+- Description: How raw stone blocks are selected from quarries
+- Video: Quarry operations, extraction process
+
+**Step 2: Block Transportation**
+- Description: Transportation from quarry to processing facility
+- Video: Loading and transport logistics
+
+**Step 3: Initial Processing & Inspection**
+- Description: First-level quality checks, block cutting
+- Video: Initial processing machinery in action
+
+**Step 4: Cutting & Slabbing**
+- Description: Precision cutting into slabs of desired thickness
+- Video: Advanced cutting machinery, gang saw operations
+
+**Step 5: Surface Treatment**
+- Description: Polishing, honing, or other finish applications
+- Video: Polishing machines, finish applications
+
+**Step 6: Quality Assurance**
+- Description: Multi-point quality inspection process
+- Video: QA team inspecting slabs
+
+**Step 7: Customization (if requested)**
+- Description: Custom cuts, edge treatments, special requirements
+- Video: Customization work being done
+
+**Step 8: Packaging & Export**
+- Description: Protective packaging, container loading, export process
+- Video: Packaging process, containers being loaded
+
+---
+
+### **VISUAL TIMELINE CONNECTOR:**
+
+**Between Steps:**
+- Dotted line connecting timeline dots (2px, gold)
+- Animation: Line draws down as user scrolls (progressive reveal)
+- Each step fades in as it enters viewport (scroll-triggered animation)
+
+---
+
+### Section 3: Technology & Equipment Section
+**Layout:** Full-width, background: Dusky sandstone gradient, padding: 80px 0
+
+**Heading:** "Cutting-Edge Technology" (H2, center-aligned)
+
+**Grid: 3-4 Columns**
+
+**Each Technology Card:**
+- Icon/Image of equipment (200x200px, circular)
+- Equipment Name (H3, 22px)
+- Brief description (14px, 3-4 lines)
+- Background: White card
+- Hover: Lift effect
+
+**Examples:**
+- CNC Machines
+- Gang Saws
+- Polishing Lines
+- Quality Testing Equipment
+
+---
+
+### Section 4: Certifications & Standards
+**Layout:** Container, padding: 80px 0
+
+**Heading:** "Quality Certifications" (H2, center-aligned)
+
+**Logo Grid: 4-6 certification logos**
+- Each logo: 180x120px, grayscale
+- Hover: Color version appears
+- Padding between logos: 40px
+
+**Text below:** "We adhere to international quality standards and maintain all necessary certifications"
+
+---
+
+### Section 5: CTA Section
+**Layout:** Full-width, background: White, padding: 100px 0
+
+**Content (centered):**
+- H2: "Want to See Our Process Firsthand?"
+- Paragraph: "Schedule a facility tour"
+- CTA Button: "Book a Visit" (Gold, prominent)
+
+---
+
+📱 RESPONSIVE DESIGN SPECIFICATIONS (Continued)
+Mobile Adaptations:
+Hero Sections:
+
+Height: 60vh (instead of 100vh)
+Font sizes reduced by 30%
+H1: 32px → 24px
+H2: 28px → 20px
+Padding: 40px 20px (instead of 80px)
+
+Grid Layouts:
+
+All multi-column grids become single column
+Cards: 100% width with 16px horizontal margin
+Vertical spacing between cards: 24px
+
+Gallery Page - Category Cards:
+
+Single column layout
+Each card: Full width, height: 400px
+No staggered/offset positioning
+Maintain hover effects (tap on mobile)
+
+Product Catalogue Modal (Mobile):
+
+Full-screen modal (100vw x 100vh)
+Single column: Image on top, info below
+Image height: 45vh
+Swipe gestures enabled:
+
+Swipe left: Next product
+Swipe right: Previous product
+Swipe down: Close modal
+
+
+Thumbnail strip: Horizontal scroll
+
+Process Page (Mobile):
+
+Single column layout
+Timeline becomes linear (no left-right alternation)
+Video iframes: 100% width, auto height (16:9 ratio maintained)
+Content cards: 100% width, padding: 30px 20px
+
+Contact Form (Mobile):
+
+Single column
+Form: 100% width
+Contact info cards stack below form
+Map: 100% width, height: 300px
+
+Footer (Mobile):
+
+Single column
+Each section stacks vertically
+Centered alignment
+Increased padding between sections
+
+
+🎬 ANIMATIONS & INTERACTIONS
+Page Load Animations:
+Home Page Logo Entry:
+1. Logo fades in (opacity 0 → 1, 800ms)
+2. Logo scales (0.5 → 1.2 → 1, 1500ms, ease-out)
+3. Logo rotates subtly (0deg → 360deg, 2000ms)
+4. Fade to carousel (500ms transition)
+Scroll-Triggered Animations:
+
+Elements fade in and slide up when entering viewport
+Stagger animation: Each item delays by 100ms
+Duration: 600ms, ease-out
+Trigger point: When element is 20% visible
+
+Hover Animations:
+Buttons:
+- Default → Hover transition: 300ms
+- Background color change
+- Shadow increase: 0 4px 12px → 0 8px 24px
+- Scale up: 1 → 1.02
+- Cursor: pointer
+Cards:
+- Lift effect: translateY(0) → translateY(-8px)
+- Shadow: intensity increases
+- Duration: 400ms, ease-out
+- Border highlight (optional)
+Images:
+- Zoom on hover: scale(1) → scale(1.1)
+- Duration: 500ms, ease-in-out
+- Overflow: hidden (on parent container)
+- Cursor: zoom-in (if clickable)
+Navigation Links:
+- Underline animation from center
+- Color change: 300ms
+- Transform: scaleX(0) → scaleX(1)
+- Transform-origin: center
+Carousel Transitions:
+Fade Transition:
+- Outgoing slide: opacity 1 → 0 (800ms)
+- Incoming slide: opacity 0 → 1 (800ms)
+- Slight zoom effect on new slide
+Auto-play Behavior:
+
+Pause on hover
+Resume on mouse leave
+Progress indicator (optional thin line)
+
+Modal Animations:
+Opening:
+1. Overlay fades in: opacity 0 → 1 (300ms)
+2. Modal scales up: scale(0.9) → scale(1) (400ms)
+3. Modal fades in: opacity 0 → 1 (400ms)
+4. Content animates in (staggered, 200ms delay)
+Closing:
+1. Modal scales down: scale(1) → scale(0.95) (300ms)
+2. Modal fades out: opacity 1 → 0 (300ms)
+3. Overlay fades out: opacity 1 → 0 (300ms)
+Image Navigation in Modal:
+- Crossfade between images (400ms)
+- Slight slide effect (translateX -20px → 0)
+- Info panel updates with fade (300ms)
+Form Interactions:
+Input Focus:
+- Border color change: grey → gold
+- Border width: 1px → 2px
+- Label moves up and scales down (if using floating labels)
+- Duration: 200ms
+Validation:
+- Error shake animation (if invalid)
+- Error message slides down (200ms)
+- Success checkmark fades in (300ms)
+Submit Button:
+- Click: Scale down to 0.98 (100ms)
+- Loading state: Spinner rotates (infinite)
+- Success state: Checkmark appears (scale up animation)
+Micro-interactions:
+Loading States:
+
+Skeleton screens for images (shimmer effect)
+Spinner for form submissions (rotating, 1s per rotation)
+Progress bars where applicable
+
+Tooltips:
+
+Fade in on hover (200ms delay, 200ms duration)
+Slide up 5px
+Arrow pointing to element
+
+Notification Toasts:
+
+Slide in from top-right (300ms)
+Auto-dismiss after 5 seconds (slide out)
+Close button with hover effect
+
+
+🎨 COMPONENT LIBRARY
+Buttons:
+Primary Button (CTA):
+cssBackground: #C9A86A (Gold)
+Color: #FFFFFF
+Padding: 16px 48px
+Border-radius: 8px
+Font-size: 16px
+Font-weight: 600
+Border: none
+Transition: all 300ms ease
+Hover: Background #B8975A, Shadow increase, Scale 1.02
+Active: Scale 0.98
+Disabled: Opacity 0.5, cursor not-allowed
+Secondary Button:
+cssBackground: Transparent
+Color: #C9A86A
+Padding: 16px 48px
+Border: 2px solid #C9A86A
+Border-radius: 8px
+Font-size: 16px
+Font-weight: 600
+Hover: Background #C9A86A, Color #FFFFFF
+Icon Button:
+cssSize: 48px circle
+Background: White/Transparent
+Icon size: 24px
+Hover: Background changes, icon color changes
+Input Fields:
+Text Input:
+cssHeight: 50px
+Padding: 0 20px
+Border: 1px solid #E0E0E0
+Border-radius: 8px
+Font-size: 16px
+Background: #FFFFFF
+Transition: border 200ms
+
+Focus:
+Border: 2px solid #C9A86A
+Outline: none
+Textarea:
+cssMin-height: 120px
+Padding: 20px
+Border: 1px solid #E0E0E0
+Border-radius: 8px
+Font-size: 16px
+Resize: vertical
+Select Dropdown:
+cssHeight: 50px
+Padding: 0 40px 0 20px
+Border: 1px solid #E0E0E0
+Border-radius: 8px
+Background: White
+Arrow icon: Custom (gold)
+Cards:
+Product Card:
+cssBackground: #FFFFFF
+Border-radius: 16px
+Shadow: 0 6px 24px rgba(0,0,0,0.1)
+Overflow: hidden
+Transition: all 400ms ease
+
+Hover:
+Transform: translateY(-12px)
+Shadow: 0 12px 40px rgba(0,0,0,0.15)
+Info Card:
+cssBackground: #FFFFFF
+Padding: 40px
+Border-radius: 12px
+Shadow: 0 4px 20px rgba(0,0,0,0.08)
+Stat Card:
+cssBackground: #FFFFFF
+Padding: 30px
+Border-radius: 12px
+Text-align: center
+Transition: transform 300ms
+
+Hover:
+Transform: translateY(-5px)
+Badges:
+Category Badge:
+cssBackground: rgba(201, 168, 106, 0.2)
+Color: #A08556
+Padding: 8px 20px
+Border-radius: 20px
+Font-size: 14px
+Font-weight: 600
+Text-transform: uppercase
+Status Badge:
+cssSimilar to category badge
+Color variations for different statuses
+Dividers:
+Decorative Line:
+cssWidth: 80px
+Height: 3px
+Background: #C9A86A
+Margin: 20px auto
+Section Divider:
+cssWidth: 100%
+Height: 1px
+Background: #E0E0E0
+Margin: 40px 0
+
+🔧 TECHNICAL SPECIFICATIONS
+Performance Requirements:
+Page Load:
+
+First Contentful Paint (FCP): < 1.5s
+Largest Contentful Paint (LCP): < 2.5s
+Time to Interactive (TTI): < 3.5s
+Cumulative Layout Shift (CLS): < 0.1
+
+Image Optimization:
+
+Use WebP format with JPEG fallback
+Lazy loading for below-fold images
+Responsive images (srcset) for different screen sizes
+Compress images: Quality 80-85%
+Maximum file size: 300KB per image
+
+Code Optimization:
+
+Minify CSS/JS
+Combine CSS files
+Async loading for non-critical JavaScript
+Critical CSS inlined in <head>
+Font loading optimization (font-display: swap)
+
+Browser Compatibility:
+Supported Browsers:
+
+Chrome (last 2 versions)
+Firefox (last 2 versions)
+Safari (last 2 versions)
+Edge (last 2 versions)
+Mobile Safari (iOS 12+)
+Chrome Mobile (Android 8+)
+
+Graceful Degradation:
+
+Fallbacks for CSS Grid (Flexbox)
+Fallbacks for modern CSS properties
+JavaScript feature detection
+Polyfills where necessary
+
+Accessibility (WCAG 2.1 AA):
+Color Contrast:
+
+Text on background: Minimum 4.5:1 ratio
+Large text (18pt+): Minimum 3:1 ratio
+Gold (#C9A86A) on white: Verify contrast for text
+
+Keyboard Navigation:
+
+All interactive elements accessible via Tab
+Focus indicators visible (2px gold outline)
+Logical tab order
+Skip navigation link (optional)
+
+Screen Reader Support:
+
+Alt text for all images (descriptive, concise)
+ARIA labels for icon buttons
+ARIA roles for complex components
+Form labels properly associated
+Heading hierarchy (H1 → H2 → H3, no skipping)
+
+Focus Management:
+
+Modal traps focus when open
+Focus returns to trigger element on close
+Focus visible indicators
+No focus on disabled elements
+
+SEO Optimization:
+Meta Tags (Each Page):
+html<title>Page Title - Jain Enterprises | Stone Exporters</title>
+<meta name="description" content="Descriptive text (150-160 chars)">
+<meta name="keywords" content="marble, granite, stone, export...">
+<meta property="og:title" content="Page Title">
+<meta property="og:description" content="Description">
+<meta property="og:image" content="social-share-image.jpg">
+<meta property="og:url" content="page-url">
+<meta name="twitter:card" content="summary_large_image">
+Structured Data (JSON-LD):
+
+Organization schema
+LocalBusiness schema (with address)
+Product schema (for gallery items)
+BreadcrumbList schema
+
+URL Structure:
+https://jainenterprises.com/
+https://jainenterprises.com/about
+https://jainenterprises.com/gallery
+https://jainenterprises.com/process
+https://jainenterprises.com/contact
+Sitemap.xml:
+
+All pages listed
+Priority and frequency tags
+Submit to Google Search Console
+
+Robots.txt:
+
+Allow all pages
+Reference sitemap location
+
+Security:
+HTTPS:
+
+SSL certificate required
+Force HTTPS redirect
+
+Form Security:
+
+CSRF protection tokens
+Input sanitization
+Email validation
+Phone validation
+Honeypot field (spam prevention)
+reCAPTCHA (optional, if spam is an issue)
+
+Content Security Policy:
+
+Restrict external script sources
+Allow only approved CDNs (cdnjs.cloudflare.com)
+
+
+📊 ANALYTICS & TRACKING
+Google Analytics Events:
+Navigation Tracking:
+
+Nav link clicks
+Logo clicks (to home)
+Footer link clicks
+
+User Interactions:
+
+CTA button clicks ("Contact Us", "Explore Collection", etc.)
+Category card clicks (Gallery)
+Modal opens/closes
+Product navigation (left/right arrows)
+Form submissions (successful/failed)
+Phone/Email link clicks
+Social media link clicks (if any)
+
+Engagement Metrics:
+
+Time on page
+Scroll depth (25%, 50%, 75%, 100%)
+Video plays (Process page)
+Carousel slide changes
+
+Conversion Tracking:
+
+Form submission completion
+"Request Quote" button clicks
+"Download Catalog" clicks
+WhatsApp/Call button clicks
+
+Heatmaps (Optional - Hotjar/Crazy Egg):
+
+Click tracking
+Scroll maps
+Session recordings
+
+
+🚀 CONTENT GUIDELINES
+Photography Requirements:
+General:
+
+High resolution: Minimum 1920x1080px
+Professional quality
+Consistent lighting and color grading
+Minimal post-processing (authentic look)
+
+Product Images:
+
+Multiple angles for each stone type
+Close-ups showing texture and pattern
+Installed/application shots (context)
+Color-accurate photography
+Consistent background (white/neutral)
+
+Facility Images:
+
+Clean, organized factory floor
+Modern equipment in operation
+Safety measures visible
+Team at work (with consent)
+Wide-angle shots for space
+
+Process Videos:
+
+Duration: 30-60 seconds each
+1080p minimum resolution
+No/minimal audio (or royalty-free music)
+Text overlays explaining what's shown
+Stable footage (tripod/gimbal)
+Good lighting
+
+Copywriting Tone:
+Brand Voice:
+
+Professional yet approachable
+Confident without being arrogant
+Expertise-driven
+Customer-focused
+Clear and concise
+
+Writing Style:
+
+Active voice preferred
+Short sentences (15-20 words average)
+Avoid jargon (or explain technical terms)
+Benefits over features
+Storytelling where appropriate
+
+Call-to-Action Copy:
+
+Action-oriented verbs
+Creates urgency (without being pushy)
+Clear value proposition
+
+Examples:
+
+"Explore Our Collections" (not "View Products")
+"Request Your Custom Quote" (not "Submit Form")
+"Transform Your Space Today" (not "Contact Us")
+
+
+🎯 USER FLOWS
+Flow 1: Visitor Explores Products
+1. Land on Home page
+2. View hero carousel (3-4 products)
+3. Read introduction section
+4. Click "Explore Collection" CTA
+5. Redirected to Gallery page
+6. View category cards
+7. Click on category (e.g., Marble Collection)
+8. Modal opens with product catalogue
+9. Browse through products (arrows/thumbnails)
+10. View product details (colors, specs)
+11. Click "Request Quote" button
+12. Redirected to Contact page (form)
+13. Fill form and submit
+Flow 2: Learning About Company
+1. Click "About" in navigation
+2. View factory banner hero
+3. Read company story (timeline)
+4. View facility images (masonry grid)
+5. Click "Process" in navigation
+6. View process steps with videos
+7. Click "Contact Us" to inquire
+Flow 3: Direct Contact
+1. Land on Home page
+2. Click "Contact Us" in navigation
+3. View contact information
+4. Choose communication method:
+   a. Fill form, or
+   b. Click phone number (tel: link), or
+   c. Click email (mailto: link), or
+   d. Click WhatsApp button
+Flow 4: Understanding Process
+1. Click "Process" in navigation
+2. View hero section
+3. Scroll through process steps
+4. Watch embedded videos
+5. View certifications section
+6. Click "Book a Visit" CTA
+7. Redirected to Contact page
