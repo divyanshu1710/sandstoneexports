@@ -6,6 +6,12 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// Set NODE_ENV if not already set
+if (!process.env.NODE_ENV) {
+  process.env.NODE_ENV = process.env.VERCEL ? "production" : "development";
+}
+app.set("env", process.env.NODE_ENV);
+
 app.use((req, res, next) => {
   const start = Date.now();
   const path = req.path;

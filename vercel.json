@@ -4,5 +4,6 @@
   "devCommand": "npm run dev",
   "env": {
     "NODE_ENV": "production"
-  }
+  },
+  "envPrefix": "REACT_APP_"
 }
