@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Products",
+    "infrastructure": "Infrastructure",
+    "process": "Process",
+    "contact": "Contact Us"
+  },
+  "home": {
+    "hero": {
+      "premiumSandstone": "Premium Sandstone Collection",
+      "premiumSandstoneSubtitle": "Timeless elegance in every slab",
+      "luxuryCobbles": "Luxury Cobbles Selection",
+      "luxuryCobblesSubtitle": "Strength meets sophistication",
+      "naturalSandstone": "Natural Sandstone",
+      "naturalSandstoneSubtitle": "Bringing warmth to your spaces",
+      "premiumWallCoping": "Premium Wall Coping Collection",
+      "premiumWallCopingSubtitle": "The pinnacle of luxury stone"
+    },
+    "craftingExcellence": {
+      "title": "Crafting Excellence in Stone",
+      "para1": "For over three decades, Jain Enterprises has been a trusted name in premium stone exports. We specialize in sourcing, processing, and delivering the finest natural stones from around the world.",
+      "para2": "Our commitment to quality, sustainable practices, and customer satisfaction has made us a preferred partner for architects, designers, and construction companies globally.",
+      "learnMore": "Learn More About Us"
+    },
+    "collections": {
+      "title": "Our Premium Collections",
+      "premiumSandstone": "Premium Sandstone",
+      "premiumSandstoneCategory": "Luxury Collection",
+      "cobblesStone": "Cobbles Stone",
+      "cobblesStoneCategory": "Strength & Beauty",
+      "naturalSlabs": "Natural slabs",
+      "naturalSlabsCategory": "Earthy Elegance",
+      "customWallCoping": "Custom Wall Coping",
+      "customWallCopingCategory": "Tailored Solutions"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Space?",
+      "subtitle": "Get in touch with our stone experts",
+      "button": "Contact Us Today"
+    }
+  },
+  "common": {
+    "language": "Language"
+  }
+}

@@ -2,11 +2,15 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
+import logoImage from "@assets/logo.jpg";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [location] = useLocation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,12 +21,12 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/gallery", label: "Gallery" },
-    { path: "/infrastructure", label: "Infrastructure" },
-    { path: "/process", label: "Process" },
-    { path: "/contact", label: "Contact Us" },
+    { path: "/", label: t("nav.home") },
+    { path: "/about", label: t("nav.about") },
+    { path: "/products", label: t("nav.gallery") },
+    { path: "/infrastructure", label: t("nav.infrastructure") },
+    { path: "/process", label: t("nav.process") },
+    { path: "/contact", label: t("nav.contact") },
   ];
 
   return (
@@ -35,13 +39,20 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" data-testid="link-home">
-          <div className="flex flex-col cursor-pointer">
-            <span className="font-serif text-2xl font-bold text-foreground tracking-wide">
-              JAIN ENTERPRISES
-            </span>
-            <span className="text-xs text-muted-foreground tracking-widest">
-              Stone Exporters
-            </span>
+          <div className="flex items-center gap-3 cursor-pointer">
+            <img
+              src={logoImage}
+              alt="Jain Enterprises Logo"
+              className="h-12 w-12 md:h-14 md:w-14 object-contain"
+            />
+            <div className="flex flex-col">
+              <span className="font-serif text-xl md:text-2xl font-bold text-foreground tracking-wide">
+                JAIN ENTERPRISES
+              </span>
+              <span className="text-xs text-muted-foreground tracking-widest">
+                Stone Exporters
+              </span>
+            </div>
           </div>
         </Link>
 
@@ -49,7 +60,7 @@ export default function Navbar() {
           {navLinks.map((link) => (
             <Link key={link.path} href={link.path}>
               <a
-                data-testid={`link-nav-${link.label.toLowerCase().replace(" ", "-")}`}
+                data-testid={`link-nav-${link.path.replace("/", "") || "home"}`}
                 className={`text-sm font-medium transition-all duration-300 relative group ${
                   location === link.path
                     ? "text-primary"
@@ -67,6 +78,7 @@ export default function Navbar() {
               </a>
             </Link>
           ))}
+          <LanguageSwitcher />
         </nav>
 
         <Button
@@ -87,7 +99,7 @@ export default function Navbar() {
               <Link key={link.path} href={link.path}>
                 <a
                   onClick={() => setIsMobileMenuOpen(false)}
-                  data-testid={`link-mobile-${link.label.toLowerCase().replace(" ", "-")}`}
+                  data-testid={`link-mobile-${link.path.replace("/", "") || "home"}`}
                   className={`text-base font-medium transition-colors ${
                     location === link.path
                       ? "text-primary"
@@ -98,6 +110,9 @@ export default function Navbar() {
                 </a>
               </Link>
             ))}
+            <div className="pt-4 border-t border-border">
+              <LanguageSwitcher />
+            </div>
           </nav>
         </div>
       )}

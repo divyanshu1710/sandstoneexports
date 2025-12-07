@@ -58,13 +58,6 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
               <p className="text-lg md:text-xl font-light mb-8" data-testid={`text-carousel-subtitle-${index}`}>
                 {slide.subtitle}
               </p>
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg"
-                data-testid={`button-explore-${index}`}
-              >
-                Explore Collection
-              </Button>
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ export default function Footer() {
               {[
                 { path: "/", label: "Home" },
                 { path: "/about", label: "About Us" },
-                { path: "/gallery", label: "Gallery" },
+                { path: "/products", label: "Products" },
                 { path: "/infrastructure", label: "Infrastructure" },
                 { path: "/process", label: "Process" },
                 { path: "/contact", label: "Contact Us" },

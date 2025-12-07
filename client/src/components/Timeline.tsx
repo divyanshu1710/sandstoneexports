@@ -25,7 +25,7 @@ export default function Timeline({ items }: TimelineProps) {
                 <div className="inline-block px-4 py-1 bg-primary/10 text-primary font-serif text-lg font-semibold rounded-full mb-4" data-testid={`text-timeline-year-${index}`}>
                   {item.year}
                 </div>
-                <h3 className="font-serif text-2xl font-semibold mb-4" data-testid={`text-timeline-title-${index}`}>
+                <h3 className="text-2xl font-semibold mb-4 heading-color" data-testid={`text-timeline-title-${index}`}>
                   {item.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed text-lg" data-testid={`text-timeline-desc-${index}`}>

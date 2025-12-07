@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "gallery": "Productos",
+    "infrastructure": "Infraestructura",
+    "process": "Proceso",
+    "contact": "Contáctenos"
+  },
+  "home": {
+    "hero": {
+      "premiumSandstone": "Colección Premium de Arenisca",
+      "premiumSandstoneSubtitle": "Elegancia atemporal en cada losa",
+      "luxuryCobbles": "Selección de Adoquines de Lujo",
+      "luxuryCobblesSubtitle": "La fuerza se encuentra con la sofisticación",
+      "naturalSandstone": "Arenisca Natural",
+      "naturalSandstoneSubtitle": "Aportando calidez a sus espacios",
+      "premiumWallCoping": "Colección Premium de Remate de Muro",
+      "premiumWallCopingSubtitle": "La cúspide de la piedra de lujo"
+    },
+    "craftingExcellence": {
+      "title": "Creando Excelencia en Piedra",
+      "para1": "Durante más de tres décadas, Jain Enterprises ha sido un nombre de confianza en la exportación de piedra premium. Nos especializamos en el abastecimiento, procesamiento y entrega de las mejores piedras naturales de todo el mundo.",
+      "para2": "Nuestro compromiso con la calidad, prácticas sostenibles y satisfacción del cliente nos ha convertido en un socio preferido para arquitectos, diseñadores y empresas de construcción a nivel mundial.",
+      "learnMore": "Conozca Más Sobre Nosotros"
+    },
+    "collections": {
+      "title": "Nuestras Colecciones Premium",
+      "premiumSandstone": "Arenisca Premium",
+      "premiumSandstoneCategory": "Colección de Lujo",
+      "cobblesStone": "Piedra de Adoquines",
+      "cobblesStoneCategory": "Fuerza y Belleza",
+      "naturalSlabs": "Losas Naturales",
+      "naturalSlabsCategory": "Elegancia Terrosa",
+      "customWallCoping": "Remate de Muro Personalizado",
+      "customWallCopingCategory": "Soluciones a Medida"
+    },
+    "cta": {
+      "title": "¿Listo para Transformar Su Espacio?",
+      "subtitle": "Póngase en contacto con nuestros expertos en piedra",
+      "button": "Contáctenos Hoy"
+    }
+  },
+  "common": {
+    "language": "Idioma"
+  }
+}

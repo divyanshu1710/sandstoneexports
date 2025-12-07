@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "gallery": "Produkte",
+    "infrastructure": "Infrastruktur",
+    "process": "Prozess",
+    "contact": "Kontaktieren Sie uns"
+  },
+  "home": {
+    "hero": {
+      "premiumSandstone": "Premium Sandstein Kollektion",
+      "premiumSandstoneSubtitle": "Zeitlose Eleganz in jeder Platte",
+      "luxuryCobbles": "Luxus Pflasterstein Auswahl",
+      "luxuryCobblesSubtitle": "Stärke trifft auf Raffinesse",
+      "naturalSandstone": "Natürlicher Sandstein",
+      "naturalSandstoneSubtitle": "Wärme in Ihre Räume bringen",
+      "premiumWallCoping": "Premium Wandabdeckung Kollektion",
+      "premiumWallCopingSubtitle": "Der Gipfel des Luxussteins"
+    },
+    "craftingExcellence": {
+      "title": "Exzellenz in Stein schaffen",
+      "para1": "Seit über drei Jahrzehnten ist Jain Enterprises ein vertrauenswürdiger Name im Premium-Steinexport. Wir spezialisieren uns auf die Beschaffung, Verarbeitung und Lieferung der feinsten Natursteine aus der ganzen Welt.",
+      "para2": "Unser Engagement für Qualität, nachhaltige Praktiken und Kundenzufriedenheit hat uns zu einem bevorzugten Partner für Architekten, Designer und Bauunternehmen weltweit gemacht.",
+      "learnMore": "Erfahren Sie Mehr Über Uns"
+    },
+    "collections": {
+      "title": "Unsere Premium Kollektionen",
+      "premiumSandstone": "Premium Sandstein",
+      "premiumSandstoneCategory": "Luxus Kollektion",
+      "cobblesStone": "Pflasterstein",
+      "cobblesStoneCategory": "Stärke & Schönheit",
+      "naturalSlabs": "Natürliche Platten",
+      "naturalSlabsCategory": "Erdige Eleganz",
+      "customWallCoping": "Maßgeschneiderte Wandabdeckung",
+      "customWallCopingCategory": "Maßgeschneiderte Lösungen"
+    },
+    "cta": {
+      "title": "Bereit, Ihren Raum zu Transformieren?",
+      "subtitle": "Kontaktieren Sie unsere Steinexperten",
+      "button": "Kontaktieren Sie uns Heute"
+    }
+  },
+  "common": {
+    "language": "Sprache"
+  }
+}

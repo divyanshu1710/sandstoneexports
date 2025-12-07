@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="pt-20">
       <section className="py-16 px-6 bg-gradient-to-br from-[#FAFAFA] to-[#E8E8E8]">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6" data-testid="text-contact-title">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 heading-color" data-testid="text-contact-title">
             Get In Touch
           </h1>
           <p className="text-lg text-muted-foreground" data-testid="text-contact-subtitle">
@@ -28,7 +28,7 @@ export default function Contact() {
                       <Phone className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-2">Call Us</h3>
+                      <h3 className="font-semibold text-lg mb-2 heading-color">Call Us</h3>
                       <a
                         href="tel:+919876543210"
                         className="text-muted-foreground hover:text-primary transition-colors"
@@ -44,7 +44,7 @@ export default function Contact() {
                       <Mail className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-2">Email Us</h3>
+                      <h3 className="font-semibold text-lg mb-2 heading-color">Email Us</h3>
                       <a
                         href="mailto:info@jainenterprises.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
@@ -60,7 +60,7 @@ export default function Contact() {
                       <MapPin className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-2">Visit Us</h3>
+                      <h3 className="font-semibold text-lg mb-2 heading-color">Visit Us</h3>
                       <p className="text-muted-foreground" data-testid="text-contact-address">
                         123 Stone Export Zone<br />
                         Industrial Area<br />
@@ -74,7 +74,7 @@ export default function Contact() {
                       <Clock className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-2">Working Hours</h3>
+                      <h3 className="font-semibold text-lg mb-2 heading-color">Working Hours</h3>
                       <p className="text-muted-foreground" data-testid="text-contact-hours">
                         Mon - Sat: 9:00 AM - 6:00 PM<br />
                         Sunday: Closed
@@ -86,7 +86,7 @@ export default function Contact() {
 
               <div className="rounded-2xl overflow-hidden shadow-lg h-96">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.1234567890!2d75.8123456!3d26.9123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDU0JzQ0LjQiTiA3NcKwNDgnNDQuNCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.4349630460842!2d75.2667101!3d25.120981499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396f4376a21ef27b%3A0xeff59c540a67cd75!2sSandstone%20Exports%20By%20Jain%20Enterprises!5e0!3m2!1sen!2sin!4v1763575814780!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -104,14 +104,14 @@ export default function Contact() {
 
       <section className="py-20 px-6 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-serif text-3xl font-semibold mb-4" data-testid="text-whatsapp-heading">
+          <h2 className="text-3xl font-semibold mb-4 heading-color" data-testid="text-whatsapp-heading">
             Prefer Direct Communication?
           </h2>
           <p className="text-muted-foreground mb-8" data-testid="text-whatsapp-desc">
             Our team is available on WhatsApp for quick queries
           </p>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/917340226251"
             target="_blank"
             rel="noopener noreferrer"
             data-testid="link-whatsapp"

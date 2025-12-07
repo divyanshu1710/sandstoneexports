@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "gallery": "Produits",
+    "infrastructure": "Infrastructure",
+    "process": "Processus",
+    "contact": "Contactez-nous"
+  },
+  "home": {
+    "hero": {
+      "premiumSandstone": "Collection Premium de Grès",
+      "premiumSandstoneSubtitle": "Élégance intemporelle dans chaque dalle",
+      "luxuryCobbles": "Sélection de Pavés de Luxe",
+      "luxuryCobblesSubtitle": "La force rencontre la sophistication",
+      "naturalSandstone": "Grès Naturel",
+      "naturalSandstoneSubtitle": "Apportant de la chaleur à vos espaces",
+      "premiumWallCoping": "Collection Premium de Couronnement de Mur",
+      "premiumWallCopingSubtitle": "Le summum de la pierre de luxe"
+    },
+    "craftingExcellence": {
+      "title": "Créer l'Excellence dans la Pierre",
+      "para1": "Depuis plus de trois décennies, Jain Enterprises est un nom de confiance dans l'exportation de pierre premium. Nous nous spécialisons dans l'approvisionnement, le traitement et la livraison des meilleures pierres naturelles du monde entier.",
+      "para2": "Notre engagement envers la qualité, les pratiques durables et la satisfaction client a fait de nous un partenaire privilégié pour les architectes, les designers et les entreprises de construction dans le monde entier.",
+      "learnMore": "En Savoir Plus Sur Nous"
+    },
+    "collections": {
+      "title": "Nos Collections Premium",
+      "premiumSandstone": "Grès Premium",
+      "premiumSandstoneCategory": "Collection de Luxe",
+      "cobblesStone": "Pierre de Pavés",
+      "cobblesStoneCategory": "Force et Beauté",
+      "naturalSlabs": "Dalles Naturelles",
+      "naturalSlabsCategory": "Élégance Terrestre",
+      "customWallCoping": "Couronnement de Mur Sur Mesure",
+      "customWallCopingCategory": "Solutions Sur Mesure"
+    },
+    "cta": {
+      "title": "Prêt à Transformer Votre Espace?",
+      "subtitle": "Contactez nos experts en pierre",
+      "button": "Contactez-nous Aujourd'hui"
+    }
+  },
+  "common": {
+    "language": "Langue"
+  }
+}
