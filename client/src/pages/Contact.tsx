@@ -1,16 +1,18 @@
+import { useTranslation } from "react-i18next";
 import ContactForm from "@/components/ContactForm";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <div className="pt-20">
       <section className="py-16 px-6 bg-gradient-to-br from-[#FAFAFA] to-[#E8E8E8]">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 heading-color" data-testid="text-contact-title">
-            Get In Touch
+            {t("contact.hero.title")}
           </h1>
           <p className="text-lg text-muted-foreground" data-testid="text-contact-subtitle">
-            We'd love to hear from you
+            {t("contact.hero.subtitle")}
           </p>
         </div>
       </section>
@@ -28,13 +30,13 @@ export default function Contact() {
                       <Phone className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-2 heading-color">Call Us</h3>
+                      <h3 className="font-semibold text-lg mb-2 heading-color">{t("contact.callUs")}</h3>
                       <a
                         href="tel:+919876543210"
                         className="text-muted-foreground hover:text-primary transition-colors"
                         data-testid="link-contact-phone"
                       >
-                        +91 98765 43210
+                        {t("contact.phone")}
                       </a>
                     </div>
                   </div>
@@ -44,13 +46,13 @@ export default function Contact() {
                       <Mail className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-2 heading-color">Email Us</h3>
+                      <h3 className="font-semibold text-lg mb-2 heading-color">{t("contact.emailUs")}</h3>
                       <a
                         href="mailto:info@jainenterprises.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                         data-testid="link-contact-email"
                       >
-                        info@jainenterprises.com
+                        {t("contact.email")}
                       </a>
                     </div>
                   </div>
@@ -60,11 +62,9 @@ export default function Contact() {
                       <MapPin className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-2 heading-color">Visit Us</h3>
+                      <h3 className="font-semibold text-lg mb-2 heading-color">{t("contact.visitUs")}</h3>
                       <p className="text-muted-foreground" data-testid="text-contact-address">
-                        123 Stone Export Zone<br />
-                        Industrial Area<br />
-                        Rajasthan 302012, India
+                        {t("contact.address")}
                       </p>
                     </div>
                   </div>
@@ -74,10 +74,11 @@ export default function Contact() {
                       <Clock className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-2 heading-color">Working Hours</h3>
+                      <h3 className="font-semibold text-lg mb-2 heading-color">{t("contact.businessHours")}</h3>
                       <p className="text-muted-foreground" data-testid="text-contact-hours">
-                        Mon - Sat: 9:00 AM - 6:00 PM<br />
-                        Sunday: Closed
+                        {t("contact.monday")}<br />
+                        {t("contact.saturday")}<br />
+                        {t("contact.sunday")}
                       </p>
                     </div>
                   </div>

@@ -41,6 +41,115 @@
       "button": "Contact Us Today"
     }
   },
+  "about": {
+    "hero": {
+      "title": "About Jain Enterprises",
+      "subtitle": "Decades of Excellence in Stone Craftsmanship"
+    },
+    "timeline": {
+      "item1": {
+        "year": "EST. 1990",
+        "title": "The Beginning",
+        "description": "Founded with a vision to bring quality natural stones to the global market. Starting from a small warehouse, we built our foundation on trust and craftsmanship."
+      },
+      "item2": {
+        "year": "2005",
+        "title": "Growth & Evolution",
+        "description": "Expanded our operations internationally, establishing partnerships across 45 countries. Invested in modern machinery and quality control systems to ensure consistent excellence."
+      },
+      "item3": {
+        "year": "2025",
+        "title": "Today & Future",
+        "description": "Leading the industry with sustainable practices and innovative solutions. Our commitment to excellence and customer satisfaction continues to drive us forward into the future."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get In Touch",
+      "subtitle": "We'd love to hear from you"
+    },
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "visitUs": "Visit Us",
+    "businessHours": "Business Hours",
+    "monday": "Monday - Friday: 9:00 AM - 6:00 PM",
+    "saturday": "Saturday: 10:00 AM - 4:00 PM",
+    "sunday": "Sunday: Closed",
+    "phone": "+91 98765 43210",
+    "email": "info@jainenterprises.com",
+    "address": "123 Stone Plaza, Jaipur, Rajasthan 302001, India"
+  },
+  "infrastructure": {
+    "hero": {
+      "title": "Our Infrastructure",
+      "subtitle": "World-class facilities equipped with modern technology to deliver excellence in every stone"
+    },
+    "items": {
+      "item1": {
+        "title": "State-of-the-Art Manufacturing Facility",
+        "description": "Our modern 50,000 sq ft manufacturing facility is equipped with the latest technology and machinery. Designed for optimal workflow efficiency, our facility ensures precision in every stage of stone processing while maintaining the highest safety and environmental standards."
+      },
+      "item2": {
+        "title": "Advanced Stone Cutting Equipment",
+        "description": "We utilize cutting-edge CNC machinery and diamond wire saws for precision cutting and shaping. Our advanced equipment allows us to handle various stone types and sizes, ensuring minimal waste and maximum accuracy in dimensions and finishes."
+      },
+      "item3": {
+        "title": "Quality Control & Inspection Center",
+        "description": "Every stone undergoes rigorous quality inspection in our dedicated QC center. Our experienced team uses advanced testing equipment to verify structural integrity, finish quality, and dimensional accuracy, ensuring only the finest products reach our customers."
+      },
+      "item4": {
+        "title": "Warehousing & Storage Facilities",
+        "description": "Our climate-controlled warehouses can store over 10,000 cubic meters of stone. Organized with modern inventory management systems, we ensure safe storage and quick retrieval of materials, ready for processing or dispatch at any time."
+      },
+      "item5": {
+        "title": "Finishing & Polishing Units",
+        "description": "Specialized polishing and finishing units equipped with multi-head polishing machines deliver mirror finishes and custom textures. Our finishing capabilities range from high-gloss polishing to honed, brushed, and flamed finishes."
+      },
+      "item6": {
+        "title": "Packaging & Export Division",
+        "description": "Our dedicated packaging facility ensures safe transit of stones worldwide. Using heavy-duty wooden crates, fumigation chambers, and modern loading bays, we prepare each shipment to arrive in perfect condition at its destination."
+      }
+    }
+  },
+  "process": {
+    "hero": {
+      "title": "Our Manufacturing Process",
+      "subtitle": "From quarry to delivery, discover how we transform raw stone into premium products"
+    },
+    "steps": {
+      "step1": {
+        "title": "Sourcing & Selection",
+        "description": "We carefully select premium natural stones from the finest quarries around the world. Our expert team evaluates each stone for quality, durability, and aesthetic appeal."
+      },
+      "step2": {
+        "title": "Precision Cutting",
+        "description": "Using state-of-the-art machinery, we cut and shape each stone to exact specifications. Our advanced technology ensures minimal waste and maximum precision."
+      },
+      "step3": {
+        "title": "Quality Control",
+        "description": "Every piece undergoes rigorous quality inspection. We ensure each stone meets our strict standards for finish, dimensions, and structural integrity."
+      },
+      "step4": {
+        "title": "Packaging & Delivery",
+        "description": "Stones are carefully packaged to prevent damage during transit. We coordinate logistics to ensure timely delivery to destinations worldwide."
+      }
+    },
+    "standardsLabel": "Industry-leading standards"
+  },
+  "gallery": {
+    "categories": {
+      "all": "All",
+      "pavingPattern": "Paving Pattern",
+      "wallCopings": "Wall Copings",
+      "columnCaps": "Column Caps / Pier Caps",
+      "treads": "Treads",
+      "jumboSlab": "Jumbo Slab",
+      "steps": "Steps",
+      "cobbles": "Cobbles",
+      "wallCladding": "Wall Cladding"
+    }
+  },
   "common": {
     "language": "Language"
   }

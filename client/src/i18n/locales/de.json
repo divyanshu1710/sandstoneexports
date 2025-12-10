@@ -41,6 +41,115 @@
       "button": "Kontaktieren Sie uns Heute"
     }
   },
+  "about": {
+    "hero": {
+      "title": "Über Jain Enterprises",
+      "subtitle": "Jahrzehnte der Exzellenz in der Steinhandwerk"
+    },
+    "timeline": {
+      "item1": {
+        "year": "EST. 1990",
+        "title": "Der Anfang",
+        "description": "Gegründet mit der Vision, hochwertige Natursteine auf den globalen Markt zu bringen. Ausgehend von einem kleinen Lager bauten wir unser Fundament auf Vertrauen und Handwerk auf."
+      },
+      "item2": {
+        "year": "2005",
+        "title": "Wachstum und Entwicklung",
+        "description": "Wir erweiterten unsere Operationen international und etablierten Partnerschaften in 45 Ländern. Wir investierten in moderne Maschinen und Qualitätskontrollsysteme, um durchgehend Exzellenz zu gewährleisten."
+      },
+      "item3": {
+        "year": "2025",
+        "title": "Heute und Zukunft",
+        "description": "Führung der Industrie mit nachhaltigen Praktiken und innovativen Lösungen. Unser Engagement für Exzellenz und Kundenzufriedenheit treibt uns weiterhin in die Zukunft."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontaktieren Sie Uns",
+      "subtitle": "Wir freuen uns, von Ihnen zu hören"
+    },
+    "callUs": "Rufen Sie Uns An",
+    "emailUs": "Schreiben Sie Uns",
+    "visitUs": "Besuchen Sie Uns",
+    "businessHours": "Geschäftszeiten",
+    "monday": "Montag - Freitag: 9:00 Uhr - 18:00 Uhr",
+    "saturday": "Samstag: 10:00 Uhr - 16:00 Uhr",
+    "sunday": "Sonntag: Geschlossen",
+    "phone": "+91 98765 43210",
+    "email": "info@jainenterprises.com",
+    "address": "123 Stone Plaza, Jaipur, Rajasthan 302001, Indien"
+  },
+  "infrastructure": {
+    "hero": {
+      "title": "Unsere Infrastruktur",
+      "subtitle": "Weltklasse-Einrichtungen, ausgestattet mit moderner Technologie, um Exzellenz in jedem Stein zu liefern"
+    },
+    "items": {
+      "item1": {
+        "title": "State-of-the-Art Fertigungsanlage",
+        "description": "Unsere moderne 50.000 Quadratfuß große Fertigungsanlage ist mit der neuesten Technologie und Maschinen ausgestattet. Entwickelt für optimale Arbeitsflusseffizienz, gewährleistet unsere Anlage Präzision in jedem Stadium der Steinverarbeitung."
+      },
+      "item2": {
+        "title": "Fortschrittliche Steinschneid-Ausrüstung",
+        "description": "Wir verwenden hochmoderne CNC-Maschinen und Diamantdrahtsägen zum präzisen Schneiden und Formen. Unsere fortschrittliche Ausrüstung ermöglicht es uns, verschiedene Steintypen und -größen zu handhaben und minimalen Abfall bei maximaler Genauigkeit zu gewährleisten."
+      },
+      "item3": {
+        "title": "Qualitätskontroll- und Inspektionszentrum",
+        "description": "Jeder Stein unterliegt einer strengen Qualitätsprüfung in unserem dedizierten QC-Zentrum. Unser erfahrenes Team nutzt fortschrittliche Testausrüstung, um strukturelle Integrität, Oberflächenqualität und dimensionale Genauigkeit zu überprüfen."
+      },
+      "item4": {
+        "title": "Lager- und Lagersysteme",
+        "description": "Unsere klimatisierten Lager können über 10.000 Kubikmeter Stein lagern. Mit modernen Lagerverwaltungssystemen organisiert, gewährleisten wir sichere Lagerung und schnelle Materialabholung."
+      },
+      "item5": {
+        "title": "Veredelungs- und Poliereinheiten",
+        "description": "Spezialisierte Polier- und Veredelungseinheiten, ausgestattet mit Mehrkopf-Poliermaschinen, liefern Spiegelpolitur und benutzerdefinierte Texturen. Unsere Oberflächenbearbeitungsfähigkeiten reichen von Hochglanzpolitur bis hin zu matter, gebürsteter und flammbearbeiteter Oberfläche."
+      },
+      "item6": {
+        "title": "Verpackungs- und Exportabteilung",
+        "description": "Unsere dedizierte Verpackungsanlage gewährleistet einen sicheren Transit von Steinen weltweit. Mit robusten Holzkisten, Fumigationskammern und modernen Ladebuchten bereiten wir jede Sendung vor, um in perfektem Zustand am Zielort anzukommen."
+      }
+    }
+  },
+  "process": {
+    "hero": {
+      "title": "Unser Herstellungsprozess",
+      "subtitle": "Vom Steinbruch bis zur Lieferung - erfahren Sie, wie wir Rohsteine in hochwertige Produkte umwandeln"
+    },
+    "steps": {
+      "step1": {
+        "title": "Beschaffung und Auswahl",
+        "description": "Wir wählen sorgfältig hochwertige Natursteine aus den besten Steinbrüchen der Welt aus. Unser Expertenteam bewertet jeden Stein auf Qualität, Haltbarkeit und ästhetische Ausstrahlung."
+      },
+      "step2": {
+        "title": "Präzisionsschneiderei",
+        "description": "Mit hochmoderner Maschinen schneiden und formen wir jeden Stein nach exakten Vorgaben. Unsere fortschrittliche Technologie gewährleistet minimalen Abfall und maximale Präzision."
+      },
+      "step3": {
+        "title": "Qualitätskontrolle",
+        "description": "Jedes Stück unterliegt einer strengen Qualitätsprüfung. Wir stellen sicher, dass jeder Stein unsere strengen Anforderungen an Oberflächenbearbeitung, Dimensionen und strukturelle Integrität erfüllt."
+      },
+      "step4": {
+        "title": "Verpackung und Lieferung",
+        "description": "Steine werden sorgfältig verpackt, um Beschädigungen während des Transits zu verhindern. Wir koordinieren die Logistik, um eine rechtzeitige Lieferung zu Zielen weltweit zu gewährleisten."
+      }
+    },
+    "standardsLabel": "Branchenführende Standards"
+  },
+  "gallery": {
+    "categories": {
+      "all": "Alle",
+      "pavingPattern": "Pflastermuster",
+      "wallCopings": "Wandabdeckungen",
+      "columnCaps": "Säulenkapitale / Pfeilerkapitale",
+      "treads": "Trittflächen",
+      "jumboSlab": "Jumbo-Platte",
+      "steps": "Stufen",
+      "cobbles": "Pflastersteine",
+      "wallCladding": "Wandverkleidung"
+    }
+  },
   "common": {
     "language": "Sprache"
   }

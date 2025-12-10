@@ -41,6 +41,115 @@
       "button": "Contactez-nous Aujourd'hui"
     }
   },
+  "about": {
+    "hero": {
+      "title": "À Propos de Jain Enterprises",
+      "subtitle": "Des Décennies d'Excellence dans l'Artisanat de la Pierre"
+    },
+    "timeline": {
+      "item1": {
+        "year": "EST. 1990",
+        "title": "Le Commencement",
+        "description": "Fondée avec la vision d'apporter des pierres naturelles de qualité au marché mondial. En commençant par un petit entrepôt, nous avons construit nos fondations sur la confiance et l'artisanat."
+      },
+      "item2": {
+        "year": "2005",
+        "title": "Croissance et Évolution",
+        "description": "Nous avons étendu nos opérations au niveau international, établissant des partenariats dans 45 pays. Nous avons investi dans des machines modernes et des systèmes de contrôle de qualité pour assurer une excellence constante."
+      },
+      "item3": {
+        "year": "2025",
+        "title": "Aujourd'hui et l'Avenir",
+        "description": "Menant l'industrie avec des pratiques durables et des solutions innovantes. Notre engagement envers l'excellence et la satisfaction des clients continue de nous propulser vers l'avenir."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Restez en Contact",
+      "subtitle": "Nous aimerions beaucoup vous entendre"
+    },
+    "callUs": "Appelez-nous",
+    "emailUs": "Envoyez-nous un Email",
+    "visitUs": "Visitez-nous",
+    "businessHours": "Heures d'Ouverture",
+    "monday": "Lundi - Vendredi: 9:00 AM - 6:00 PM",
+    "saturday": "Samedi: 10:00 AM - 4:00 PM",
+    "sunday": "Dimanche: Fermé",
+    "phone": "+91 98765 43210",
+    "email": "info@jainenterprises.com",
+    "address": "123 Stone Plaza, Jaipur, Rajasthan 302001, Inde"
+  },
+  "infrastructure": {
+    "hero": {
+      "title": "Notre Infrastructure",
+      "subtitle": "Des installations de classe mondiale équipées de technologies modernes pour livrer l'excellence dans chaque pierre"
+    },
+    "items": {
+      "item1": {
+        "title": "Installation de Fabrication de Pointe",
+        "description": "Notre installation de fabrication moderne de 50 000 pieds carrés est équipée de la technologie et des machines les plus récentes. Conçue pour une efficacité optimale du flux de travail, notre installation assure la précision à chaque étape du traitement de la pierre."
+      },
+      "item2": {
+        "title": "Équipements Avancés de Découpe de Pierre",
+        "description": "Nous utilisons des machines CNC de pointe et des scies à fil de diamant pour la découpe et le façonnage de précision. Notre équipement avancé nous permet de traiter différents types et tailles de pierre, assurant un minimum de déchets et une précision maximale."
+      },
+      "item3": {
+        "title": "Centre de Contrôle de Qualité et d'Inspection",
+        "description": "Chaque pierre subit une inspection rigoureuse de la qualité dans notre centre d'assurance qualité dédié. Notre équipe expérimentée utilise des équipements de test avancés pour vérifier l'intégrité structurelle, la qualité de finition et la précision dimensionnelle."
+      },
+      "item4": {
+        "title": "Entrepôts et Installations de Stockage",
+        "description": "Nos entrepôts climatisés peuvent stocker plus de 10 000 mètres cubes de pierre. Organisés avec des systèmes modernes de gestion des stocks, nous assurons un stockage sûr et une récupération rapide des matériaux."
+      },
+      "item5": {
+        "title": "Unités de Finition et de Polissage",
+        "description": "Les unités de polissage et de finition spécialisées équipées de machines à polir à têtes multiples offrent des finitions miroir et des textures personnalisées. Nos capacités de finition vont du polissage à haut brillant aux finitions mates, brossées et flammées."
+      },
+      "item6": {
+        "title": "Division d'Emballage et d'Exportation",
+        "description": "Notre installation d'emballage dédiée assure le transit sécurisé des pierres dans le monde entier. En utilisant des caisses en bois robustes, des chambres de fumigation et des quais de chargement modernes, nous préparons chaque expédition pour arriver en parfait état à sa destination."
+      }
+    }
+  },
+  "process": {
+    "hero": {
+      "title": "Notre Processus de Fabrication",
+      "subtitle": "De la carrière à la livraison, découvrez comment nous transformons la pierre brute en produits premium"
+    },
+    "steps": {
+      "step1": {
+        "title": "Approvisionnement et Sélection",
+        "description": "Nous sélectionnons soigneusement les pierres naturelles premium des meilleures carrières du monde. Notre équipe d'experts évalue chaque pierre pour sa qualité, sa durabilité et son attrait esthétique."
+      },
+      "step2": {
+        "title": "Découpe de Précision",
+        "description": "En utilisant des machines de pointe, nous coupons et façonnons chaque pierre selon les spécifications exactes. Notre technologie avancée assure un minimum de déchets et une précision maximale."
+      },
+      "step3": {
+        "title": "Contrôle de Qualité",
+        "description": "Chaque pièce subit une inspection rigoureuse de la qualité. Nous nous assurons que chaque pierre répond à nos normes strictes pour la finition, les dimensions et l'intégrité structurelle."
+      },
+      "step4": {
+        "title": "Emballage et Livraison",
+        "description": "Les pierres sont soigneusement emballées pour éviter les dommages pendant le transit. Nous coordonnons la logistique pour assurer une livraison rapide aux destinations du monde entier."
+      }
+    },
+    "standardsLabel": "Normes leaders de l'industrie"
+  },
+  "gallery": {
+    "categories": {
+      "all": "Tous",
+      "pavingPattern": "Motif de Pavage",
+      "wallCopings": "Couronnes de Mur",
+      "columnCaps": "Chapiteaux de Colonne / Sommiers de Jetée",
+      "treads": "Marches",
+      "jumboSlab": "Dalle Jumbo",
+      "steps": "Escaliers",
+      "cobbles": "Pavés",
+      "wallCladding": "Revêtement de Mur"
+    }
+  },
   "common": {
     "language": "Langue"
   }

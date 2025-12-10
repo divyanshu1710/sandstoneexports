@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import facilityImage from "@assets/generated_images/Stone_manufacturing_facility_interior_3d6147b5.png";
 import machineryImage from "@assets/generated_images/Stone_cutting_machinery_equipment_f594776a.png";
 import qualityImage from "@assets/generated_images/Quality_control_stone_inspection_d9c9f334.png";
@@ -8,55 +9,56 @@ import Infra4Image from "@assets/generated_images/SEJEB_page-0007.jpg";
 import Infra5Image from "@assets/generated_images/SEJEB_page-0001.jpg";
 import Infra6Image from "@assets/generated_images/SEJEB_page-0009.jpg";
 
-const infrastructureData = [
-  {
-    id: 1,
-    title: "State-of-the-Art Manufacturing Facility",
-    description: "Our modern 50,000 sq ft manufacturing facility is equipped with the latest technology and machinery. Designed for optimal workflow efficiency, our facility ensures precision in every stage of stone processing while maintaining the highest safety and environmental standards.",
-    image: Infra1Image,
-  },
-  {
-    id: 2,
-    title: "Advanced Stone Cutting Equipment",
-    description: "We utilize cutting-edge CNC machinery and diamond wire saws for precision cutting and shaping. Our advanced equipment allows us to handle various stone types and sizes, ensuring minimal waste and maximum accuracy in dimensions and finishes.",
-    image: Infra5Image,
-  },
-  {
-    id: 3,
-    title: "Quality Control & Inspection Center",
-    description: "Every stone undergoes rigorous quality inspection in our dedicated QC center. Our experienced team uses advanced testing equipment to verify structural integrity, finish quality, and dimensional accuracy, ensuring only the finest products reach our customers.",
-    image: Infra3Image,
-  },
-  {
-    id: 4,
-    title: "Warehousing & Storage Facilities",
-    description: "Our climate-controlled warehouses can store over 10,000 cubic meters of stone. Organized with modern inventory management systems, we ensure safe storage and quick retrieval of materials, ready for processing or dispatch at any time.",
-    image: Infra4Image,
-  },
-  {
-    id: 5,
-    title: "Finishing & Polishing Units",
-    description: "Specialized polishing and finishing units equipped with multi-head polishing machines deliver mirror finishes and custom textures. Our finishing capabilities range from high-gloss polishing to honed, brushed, and flamed finishes.",
-    image: Infra2Image,
-  },
-  {
-    id: 6,
-    title: "Packaging & Export Division",
-    description: "Our dedicated packaging facility ensures safe transit of stones worldwide. Using heavy-duty wooden crates, fumigation chambers, and modern loading bays, we prepare each shipment to arrive in perfect condition at its destination.",
-    image: Infra6Image,
-  },
-];
-
 export default function Infrastructure() {
+  const { t } = useTranslation();
+
+  const infrastructureData = [
+    {
+      id: 1,
+      title: t("infrastructure.items.item1.title"),
+      description: t("infrastructure.items.item1.description"),
+      image: Infra1Image,
+    },
+    {
+      id: 2,
+      title: t("infrastructure.items.item2.title"),
+      description: t("infrastructure.items.item2.description"),
+      image: Infra5Image,
+    },
+    {
+      id: 3,
+      title: t("infrastructure.items.item3.title"),
+      description: t("infrastructure.items.item3.description"),
+      image: Infra3Image,
+    },
+    {
+      id: 4,
+      title: t("infrastructure.items.item4.title"),
+      description: t("infrastructure.items.item4.description"),
+      image: Infra4Image,
+    },
+    {
+      id: 5,
+      title: t("infrastructure.items.item5.title"),
+      description: t("infrastructure.items.item5.description"),
+      image: Infra2Image,
+    },
+    {
+      id: 6,
+      title: t("infrastructure.items.item6.title"),
+      description: t("infrastructure.items.item6.description"),
+      image: Infra6Image,
+    },
+  ];
   return (
     <div className="pt-20">
       <section className="py-16 px-6 bg-gradient-to-br from-[#FAFAFA] to-[#E8E8E8]">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 heading-color" data-testid="text-infrastructure-title">
-            Our Infrastructure
+            {t("infrastructure.hero.title")}
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto" data-testid="text-infrastructure-subtitle">
-            World-class facilities equipped with modern technology to deliver excellence in every stone
+            {t("infrastructure.hero.subtitle")}
           </p>
         </div>
       </section>

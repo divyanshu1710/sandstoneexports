@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Timeline from "@/components/Timeline";
 import ValueCard from "@/components/ValueCard";
 import { Award, Leaf, Heart } from "lucide-react";
@@ -12,25 +13,27 @@ import Fac2Image from "@assets/generated_images/SEJE1_page-0003.jpg";
 import Fac3Image from "@assets/generated_images/SEJEB_page-0004.jpg";
 
 export default function About() {
+  const { t } = useTranslation();
+
   const timelineItems = [
     {
-      year: "EST. 1990",
-      title: "The Beginning",
-      description: "Founded with a vision to bring quality natural stones to the global market. Starting from a small warehouse, we built our foundation on trust and craftsmanship.",
+      year: t("about.timeline.item1.year"),
+      title: t("about.timeline.item1.title"),
+      description: t("about.timeline.item1.description"),
       image: Infra2Image,
       imagePosition: "right" as const
     },
     {
-      year: "2005",
-      title: "Growth & Evolution",
-      description: "Expanded our operations internationally, establishing partnerships across 45 countries. Invested in modern machinery and quality control systems to ensure consistent excellence.",
+      year: t("about.timeline.item2.year"),
+      title: t("about.timeline.item2.title"),
+      description: t("about.timeline.item2.description"),
       image: sandstoneImage,
       imagePosition: "left" as const
     },
     {
-      year: "2025",
-      title: "Today & Future",
-      description: "Leading the industry with sustainable practices and innovative solutions. Our commitment to excellence and customer satisfaction continues to drive us forward into the future.",
+      year: t("about.timeline.item3.year"),
+      title: t("about.timeline.item3.title"),
+      description: t("about.timeline.item3.description"),
       image: Infra3Image,
       imagePosition: "right" as const
     }
@@ -46,10 +49,10 @@ export default function About() {
         <div className="relative h-full flex items-center justify-center">
           <div className="text-center text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-4 heading-color" data-testid="text-about-hero-title">
-              About Jain Enterprises
+              {t("about.hero.title")}
             </h1>
             <p className="text-sm tracking-wider" data-testid="text-breadcrumb">
-              Home &gt; About
+              Home &gt; {t("nav.about")}
             </p>
           </div>
         </div>
@@ -59,7 +62,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-semibold mb-6 heading-color" data-testid="text-story-heading">
-              Our Story
+              {t("home.craftingExcellence.title")}
             </h2>
             <div className="w-20 h-0.5 bg-primary mx-auto" />
           </div>

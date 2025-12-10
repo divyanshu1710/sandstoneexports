@@ -41,6 +41,115 @@
       "button": "Contáctenos Hoy"
     }
   },
+  "about": {
+    "hero": {
+      "title": "Acerca de Jain Enterprises",
+      "subtitle": "Décadas de Excelencia en la Artesanía de Piedra"
+    },
+    "timeline": {
+      "item1": {
+        "year": "EST. 1990",
+        "title": "El Comienzo",
+        "description": "Fundada con la visión de traer piedras naturales de calidad al mercado global. Comenzando desde un pequeño almacén, construimos nuestro fundamento en confianza y artesanía."
+      },
+      "item2": {
+        "year": "2005",
+        "title": "Crecimiento y Evolución",
+        "description": "Expandimos nuestras operaciones internacionalmente, estableciendo asociaciones en 45 países. Invertimos en maquinaria moderna y sistemas de control de calidad para asegurar excelencia consistente."
+      },
+      "item3": {
+        "year": "2025",
+        "title": "Hoy y el Futuro",
+        "description": "Liderando la industria con prácticas sostenibles y soluciones innovadoras. Nuestro compromiso con la excelencia y la satisfacción del cliente continúa impulsándonos hacia el futuro."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Ponte en Contacto",
+      "subtitle": "Nos encantaría saber de ti"
+    },
+    "callUs": "Llámanos",
+    "emailUs": "Envíanos un Correo",
+    "visitUs": "Visítanos",
+    "businessHours": "Horario Comercial",
+    "monday": "Lunes - Viernes: 9:00 AM - 6:00 PM",
+    "saturday": "Sábado: 10:00 AM - 4:00 PM",
+    "sunday": "Domingo: Cerrado",
+    "phone": "+91 98765 43210",
+    "email": "info@jainenterprises.com",
+    "address": "123 Stone Plaza, Jaipur, Rajasthan 302001, India"
+  },
+  "infrastructure": {
+    "hero": {
+      "title": "Nuestra Infraestructura",
+      "subtitle": "Instalaciones de clase mundial equipadas con tecnología moderna para entregar excelencia en cada piedra"
+    },
+    "items": {
+      "item1": {
+        "title": "Instalación de Manufactura de Última Generación",
+        "description": "Nuestra moderna instalación de manufactura de 50,000 pies cuadrados está equipada con la tecnología y maquinaria más reciente. Diseñada para la máxima eficiencia del flujo de trabajo, nuestra instalación asegura precisión en cada etapa del procesamiento de piedra."
+      },
+      "item2": {
+        "title": "Equipo Avanzado de Corte de Piedra",
+        "description": "Utilizamos maquinaria CNC de vanguardia y sierras de alambre de diamante para corte y formación de precisión. Nuestro equipo avanzado nos permite manejar varios tipos y tamaños de piedra, asegurando desperdicio mínimo y máxima precisión."
+      },
+      "item3": {
+        "title": "Centro de Control de Calidad e Inspección",
+        "description": "Cada piedra se somete a una inspección rigurosa de calidad en nuestro centro de QC dedicado. Nuestro equipo experimentado utiliza equipo de prueba avanzado para verificar la integridad estructural, la calidad del acabado y la precisión dimensional."
+      },
+      "item4": {
+        "title": "Almacenes e Instalaciones de Almacenamiento",
+        "description": "Nuestros almacenes con control climático pueden almacenar más de 10,000 metros cúbicos de piedra. Organizados con sistemas modernos de gestión de inventario, aseguramos almacenamiento seguro y recuperación rápida de materiales."
+      },
+      "item5": {
+        "title": "Unidades de Acabado y Pulido",
+        "description": "Las unidades especializadas de pulido y acabado equipadas con máquinas pulidoras de cabezal múltiple entregan acabados de espejo y texturas personalizadas. Nuestras capacidades de acabado van desde pulido de alto brillo hasta acabados mate, cepillado y flameado."
+      },
+      "item6": {
+        "title": "División de Empaque y Exportación",
+        "description": "Nuestra instalación de empaque dedicada asegura el tránsito seguro de piedras en todo el mundo. Utilizando cajas de madera de servicio pesado, cámaras de fumigación y muelles de carga modernos, preparamos cada envío para llegar en condiciones perfectas."
+      }
+    }
+  },
+  "process": {
+    "hero": {
+      "title": "Nuestro Proceso de Manufactura",
+      "subtitle": "De la cantera a la entrega, descubre cómo transformamos la piedra bruta en productos premium"
+    },
+    "steps": {
+      "step1": {
+        "title": "Adquisición y Selección",
+        "description": "Seleccionamos cuidadosamente piedras naturales premium de las mejores canteras del mundo. Nuestro equipo experto evalúa cada piedra por calidad, durabilidad y atractivo estético."
+      },
+      "step2": {
+        "title": "Corte de Precisión",
+        "description": "Utilizando maquinaria de última generación, cortamos y damos forma a cada piedra según especificaciones exactas. Nuestra tecnología avanzada asegura desperdicio mínimo y máxima precisión."
+      },
+      "step3": {
+        "title": "Control de Calidad",
+        "description": "Cada pieza se somete a inspección rigurosa de calidad. Aseguramos que cada piedra cumpla con nuestros estrictos estándares de acabado, dimensiones e integridad estructural."
+      },
+      "step4": {
+        "title": "Empaque y Entrega",
+        "description": "Las piedras se empacan cuidadosamente para prevenir daños durante el tránsito. Coordinamos la logística para asegurar entrega oportuna a destinos en todo el mundo."
+      }
+    },
+    "standardsLabel": "Estándares líderes en la industria"
+  },
+  "gallery": {
+    "categories": {
+      "all": "Todos",
+      "pavingPattern": "Patrón de Pavimentación",
+      "wallCopings": "Remates de Muro",
+      "columnCaps": "Capiteles de Columna / Sombretes de Muelle",
+      "treads": "Huellas",
+      "jumboSlab": "Losa Jumbo",
+      "steps": "Escalones",
+      "cobbles": "Adoquines",
+      "wallCladding": "Revestimiento de Muro"
+    }
+  },
   "common": {
     "language": "Idioma"
   }

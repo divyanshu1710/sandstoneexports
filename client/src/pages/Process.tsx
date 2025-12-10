@@ -1,4 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import facilityImage from "@assets/generated_images/SEJE1_page-0001.jpg";
 import machineryImage from "@assets/generated_images/Stone_cutting_machinery_equipment_f594776a.png";
 import qualityImage from "@assets/generated_images/Quality_control_stone_inspection_d9c9f334.png";
@@ -6,43 +7,44 @@ import Infra5Image from "@assets/generated_images/SEJEB_page-0001.jpg";
 import Infra6Image from "@assets/generated_images/SEJEB_page-0009.jpg";
 import Infra2Image from "@assets/generated_images/SEJE1_page-0002.jpg";
 
-const processSteps = [
-  {
-    step: 1,
-    title: "Sourcing & Selection",
-    description: "We carefully select premium natural stones from the finest quarries around the world. Our expert team evaluates each stone for quality, durability, and aesthetic appeal.",
-    image: facilityImage,
-  },
-  {
-    step: 2,
-    title: "Precision Cutting",
-    description: "Using state-of-the-art machinery, we cut and shape each stone to exact specifications. Our advanced technology ensures minimal waste and maximum precision.",
-    image: Infra5Image,
-  },
-  {
-    step: 3,
-    title: "Quality Control",
-    description: "Every piece undergoes rigorous quality inspection. We ensure each stone meets our strict standards for finish, dimensions, and structural integrity.",
-    image: Infra2Image,
-  },
-  {
-    step: 4,
-    title: "Packaging & Delivery",
-    description: "Stones are carefully packaged to prevent damage during transit. We coordinate logistics to ensure timely delivery to destinations worldwide.",
-    image: Infra6Image,
-  },
-];
-
 export default function Process() {
+  const { t } = useTranslation();
+
+  const processSteps = [
+    {
+      step: 1,
+      title: t("process.steps.step1.title"),
+      description: t("process.steps.step1.description"),
+      image: facilityImage,
+    },
+    {
+      step: 2,
+      title: t("process.steps.step2.title"),
+      description: t("process.steps.step2.description"),
+      image: Infra5Image,
+    },
+    {
+      step: 3,
+      title: t("process.steps.step3.title"),
+      description: t("process.steps.step3.description"),
+      image: Infra2Image,
+    },
+    {
+      step: 4,
+      title: t("process.steps.step4.title"),
+      description: t("process.steps.step4.description"),
+      image: Infra6Image,
+    },
+  ];
   return (
     <div className="pt-20">
       <section className="py-16 px-6 bg-gradient-to-br from-[#FAFAFA] to-[#E8E8E8]">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 heading-color" data-testid="text-process-title">
-            Our Manufacturing Process
+            {t("process.hero.title")}
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto" data-testid="text-process-subtitle">
-            From quarry to delivery, discover how we transform raw stone into premium products
+            {t("process.hero.subtitle")}
           </p>
         </div>
       </section>
@@ -74,7 +76,7 @@ export default function Process() {
                   </p>
                   <div className="flex items-center gap-2 text-primary">
                     <CheckCircle2 className="h-5 w-5" />
-                    <span className="font-medium">Industry-leading standards</span>
+                    <span className="font-medium">{t("process.standardsLabel")}</span>
                   </div>
                 </div>
 
