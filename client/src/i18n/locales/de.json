@@ -40,6 +40,28 @@
       "subtitle": "Kontaktieren Sie unsere Steinexperten",
       "button": "Kontaktieren Sie uns Heute"
     }
+    ,
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "Echtes Feedback von Projekten, die wir abgeschlossen haben.",
+      "items": {
+        "1": {
+          "quote": "Jain Enterprises lieferte außergewöhnliches Sandsteinpflaster für unser Projekt. Die Qualität und Verarbeitung übertrafen die Erwartungen — pünktlich und im Budget.",
+          "name": "Rohit Sharma",
+          "role": "Landschaftsarchitekt"
+        },
+        "2": {
+          "quote": "Ihre Liebe zum Detail und ihr Kundenservice fielen auf. Die Pflastersteine sehen wunderschön aus und haben sich bei intensiver Nutzung hervorragend gehalten.",
+          "name": "Aarti Menon",
+          "role": "Projektleiterin"
+        },
+        "3": {
+          "quote": "Wir wählten Jain Enterprises für einen großen kommerziellen Auftrag — die Platten waren konsistent und die Installation verlief dank ihres Teams reibungslos.",
+          "name": "Suresh Patel",
+          "role": "Generalunternehmer"
+        }
+      }
+    }
   },
   "about": {
     "hero": {

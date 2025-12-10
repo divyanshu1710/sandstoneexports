@@ -59,6 +59,7 @@ interface ProductData {
   images: string[];
   shortDescription: string;
   features: string[];
+  details?: { title: string; items: string[] }[];
 }
 
 const productDatabase: Record<string, ProductData> = {
@@ -76,6 +77,15 @@ const productDatabase: Record<string, ProductData> = {
       "Eco-friendly option",
       "Ideal for patios and pathways"
     ]
+    ,
+    details: [
+      { title: "Regular Sizes (inches)", items: ["24\" × 36\"", "24\" × 24\"", "24\" × 18\"", "24\" × 12\""] },
+      { title: "Metric Sizes (mm)", items: ["600 × 900", "600 × 600", "600 × 450 (or 600 × 295)", "600 × 300", "295 × 295", "300 × 300"] },
+      { title: "Thickness", items: ["18 mm", "22 mm", "25 mm", "30 mm", "40 mm", "50 mm"] },
+      { title: "Finish", items: ["Riven", "Natural", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast", "Brushing"] },
+      { title: "Edges", items: ["Natural", "Natural Handcut (Rockface)", "Sawn cut edges"] },
+      { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
+    ]
   },
   "wall-copings": {
     id: "wall-copings",
@@ -90,6 +100,14 @@ const productDatabase: Record<string, ProductData> = {
       "Custom sizing available",
       "Professional installation",
       "Lifetime durability"
+    ]
+    ,
+    details: [
+      { title: "Regular Sizes", items: ["12\" × 24\"", "14\" × 24\"", "18\" × 24\""] },
+      { title: "Thickness", items: ["1.5\" inch", "2\" inch", "3\" inch", "4\" inch"] },
+      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast", "Brushing"] },
+      { title: "Edges", items: ["All 4 Side Rockface", "Two long side rockface + two short side sawn cut", "All 4 Side Bullnose", "Long side bullnose + 3 side sawn cut"] },
+      { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
   },
   "column-caps": {
@@ -106,6 +124,14 @@ const productDatabase: Record<string, ProductData> = {
       "Custom dimensions",
       "Premium finish options"
     ]
+    ,
+    details: [
+      { title: "Regular Sizes", items: ["24\" × 24\"", "20\" × 30\"", "36\" × 36\""] },
+      { title: "Thickness", items: ["2\" inch", "3\" inch", "4\" inch"] },
+      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast", "Brushing"] },
+      { title: "Edges", items: ["All 4 Side Rockface", "All 4 Side Sawn Cut", "All 4 Side Bullnose"] },
+      { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
+    ]
   },
   "treads": {
     id: "treads",
@@ -120,6 +146,16 @@ const productDatabase: Record<string, ProductData> = {
       "Multiple finishes",
       "Indoor and outdoor use",
       "Professional grade"
+    ]
+    ,
+    details: [
+      { title: "Regular Sizes (Inches)", items: [
+        "12\" × 48\"", "12\" × 60\"", "12\" × 72\"", "14\" × 48\"", "14\" × 60\"", "14\" × 72\"", "18\" × 48\"", "18\" × 60\"", "24\" × 48\"", "24\" × 60\"", "24\" × 72\""
+      ]},
+      { title: "Thickness", items: ["2\" inch", "3\" inch"] },
+      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast"] },
+      { title: "Edges", items: ["All 4 Side Rockface", "All 4 Side Sawn Cut", "1 Long Side Rockface + 3 Side Sawn Cut", "1 Long Side Bullnose + 3 Side Sawn Cut"] },
+      { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
   },
   "jumbo-slab": {
@@ -136,6 +172,14 @@ const productDatabase: Record<string, ProductData> = {
       "Versatile applications",
       "Professional polishing"
     ]
+    ,
+    details: [
+      { title: "Regular Sizes", items: ["24\" × 72\"", "24\" × 96\"", "24\" × 120\"", "48\" × 72\"", "48\" × 96\"", "48\" × 120\""] },
+      { title: "Thickness", items: ["2\" inch", "3\" inch", "4\" inch"] },
+      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Flamed", "Shotblast"] },
+      { title: "Edges", items: ["All 4 Side Handcut (Rockface)", "All 4 Side Sawn Edge", "1 Long Side Sawn + 3 Side Rockface", "1 Long Side Sawn + 3 Side Sawn Cut"] },
+      { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
+    ]
   },
   "steps": {
     id: "steps",
@@ -150,6 +194,14 @@ const productDatabase: Record<string, ProductData> = {
       "Elegant design",
       "Multiple materials",
       "Professional installation support"
+    ]
+    ,
+    details: [
+      { title: "Regular Size", items: ["Same as Treads (12\", 14\", 18\" series)"] },
+      { title: "Thickness", items: ["4\" inch", "6\" inch", "8\" inch"] },
+      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Flamed", "Shotblast"] },
+      { title: "Edges", items: ["Same as Treads"] },
+      { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
   },
   "cobbles": {
@@ -166,6 +218,14 @@ const productDatabase: Record<string, ProductData> = {
       "Low maintenance",
       "Versatile applications"
     ]
+    ,
+    details: [
+      { title: "Regular Size", items: ["14\" × 14\"", "14\" × 20\"", "20\" × 20\""] },
+      { title: "Thickness", items: ["2\" inch", "3\" inch", "4\" inch"] },
+      { title: "Edge", items: ["All 4 Side Sawn Edge", "All 4 Side Rockface"] },
+      { title: "Finish", items: ["Natural", "Tumbled", "Sawn Honed", "Shotblast"] },
+      { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
+    ]
   },
   "wall-cladding": {
     id: "wall-cladding",
@@ -181,6 +241,13 @@ const productDatabase: Record<string, ProductData> = {
       "Fire resistant",
       "Professional appearance"
     ]
+    ,
+    details: [
+      { title: "Regular Size", items: ["600 × 150", "400 × 400"] },
+      { title: "Thickness", items: ["15–20 mm", "10–15 mm", "15–25 mm"] },
+      { title: "Finish", items: ["Natural", "Sawn", "Splitface"] },
+      { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
+    ]
   }
 };
 
@@ -188,7 +255,6 @@ export default function ProductDetail() {
   const { t } = useTranslation();
   const { productId } = useParams();
   const [, setLocation] = useLocation();
-  const [showGallery, setShowGallery] = useState(false);
 
   const product = productDatabase[productId || ""];
 
@@ -199,50 +265,6 @@ export default function ProductDetail() {
           <h1 className="text-3xl font-bold mb-4">Product not found</h1>
           <Button onClick={() => setLocation("/gallery")}>Back to Gallery</Button>
         </div>
-      </div>
-    );
-  }
-
-  if (showGallery) {
-    return (
-      <div className="pt-20">
-        <div className="py-6 px-6 bg-gradient-to-br from-[#FAFAFA] to-[#E8E8E8]">
-          <div className="max-w-7xl mx-auto">
-            <button
-              onClick={() => setShowGallery(false)}
-              className="flex items-center gap-2 text-primary hover:text-primary/80 mb-6"
-            >
-              <ArrowLeft className="h-5 w-5" />
-              Back to product overview
-            </button>
-            <h1 className="text-4xl md:text-5xl font-bold heading-color">{product.name}</h1>
-          </div>
-        </div>
-
-        <section className="py-12 px-6">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {product.images.map((image, index) => (
-                <div
-                  key={index}
-                  className="group relative rounded-2xl overflow-hidden cursor-pointer"
-                >
-                  <div className="aspect-square">
-                    <img
-                      src={image}
-                      alt={`${product.name} - View ${index + 1}`}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                      <p className="text-sm font-semibold">View {index + 1}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
       </div>
     );
   }
@@ -263,30 +285,55 @@ export default function ProductDetail() {
         </div>
       </section>
 
+      {/* Images grid */}
+      <section className="py-12 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {product.images.map((image, index) => (
+              <div key={index} className="group relative rounded-2xl overflow-hidden">
+                <div className="aspect-square">
+                  <img
+                    src={image}
+                    alt={`${product.name} - View ${index + 1}`}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                    <p className="text-sm font-semibold">View {index + 1}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Product details below images */}
       <section className="py-24 px-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Product Image */}
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
-              src={product.images[0]}
-              alt={product.name}
-              className="w-full h-96 md:h-full object-cover"
-            />
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-12">
+            <h2 className="text-3xl font-semibold mb-4 heading-color">About This Product</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">{product.description}</p>
           </div>
 
-          {/* Product Info */}
-          <div>
-            <div className="mb-8">
-              <h2 className="text-3xl font-semibold mb-4 heading-color">About This Product</h2>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                {product.description}
-              </p>
-            </div>
+          <div className="mb-12">
+            <h3 className="text-2xl font-semibold mb-4 heading-color">Product details</h3>
 
-            {/* Features */}
-            <div className="mb-8">
-              <h3 className="text-2xl font-semibold mb-4 heading-color">Key Features</h3>
-              <ul className="grid grid-cols-2 gap-3">
+            {product.details && product.details.length ? (
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                {product.details.map((section, sIdx) => (
+                  <div key={sIdx}>
+                    <h4 className="text-lg font-medium mb-2 heading-color">{section.title}</h4>
+                    <ul className="list-disc ml-5 text-muted-foreground">
+                      {section.items.map((it, iIdx) => (
+                        <li key={iIdx} className="mb-1">{it}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {product.features.map((feature, index) => (
                   <li key={index} className="flex items-center gap-3">
                     <div className="w-2 h-2 rounded-full bg-primary" />
@@ -294,37 +341,18 @@ export default function ProductDetail() {
                   </li>
                 ))}
               </ul>
-            </div>
+            )}
+          </div>
 
-            {/* Explore Button */}
+          <div className="text-center">
             <Button
-              onClick={() => setShowGallery(true)}
+              onClick={() => setLocation("/contact")}
+              variant="outline"
               size="lg"
-              className="w-full md:w-auto bg-primary text-primary-foreground hover:bg-primary/90"
             >
-              <Grid3x3 className="h-5 w-5 mr-2" />
-              Explore All Images
+              Get a Quote
             </Button>
           </div>
-        </div>
-      </section>
-
-      {/* Additional Info Section */}
-      <section className="py-20 px-6 bg-gradient-to-br from-[#F5F1ED] to-[#E6DDD5]">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl font-semibold mb-6 heading-color">Why Choose Our {product.name}?</h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-            Premium quality, sustainable sourcing, and expert craftsmanship combine to deliver 
-            products that exceed expectations. We're committed to providing the finest natural 
-            stone solutions for your projects.
-          </p>
-          <Button
-            onClick={() => setLocation("/contact")}
-            variant="outline"
-            size="lg"
-          >
-            Get a Quote
-          </Button>
         </div>
       </section>
     </div>

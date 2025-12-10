@@ -40,6 +40,28 @@
       "subtitle": "Póngase en contacto con nuestros expertos en piedra",
       "button": "Contáctenos Hoy"
     }
+    ,
+    "testimonials": {
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "Comentarios reales de proyectos que hemos completado.",
+      "items": {
+        "1": {
+          "quote": "Jain Enterprises entregó un pavimento de arenisca excepcional para nuestro proyecto. La calidad y el acabado superaron las expectativas — a tiempo y dentro del presupuesto.",
+          "name": "Rohit Sharma",
+          "role": "Arquitecto paisajista"
+        },
+        "2": {
+          "quote": "Su atención al detalle y servicio al cliente se destacaron. Los adoquines se ven hermosos y han resistido brillantemente el uso intensivo.",
+          "name": "Aarti Menon",
+          "role": "Gerente de proyecto"
+        },
+        "3": {
+          "quote": "Elegimos a Jain Enterprises para un gran trabajo comercial: las losas fueron consistentes y la instalación fue fluida gracias a su equipo.",
+          "name": "Suresh Patel",
+          "role": "Contratista general"
+        }
+      }
+    }
   },
   "about": {
     "hero": {

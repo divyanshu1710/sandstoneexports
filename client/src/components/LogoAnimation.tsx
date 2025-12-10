@@ -39,10 +39,10 @@ export default function LogoAnimation({ onComplete }: LogoAnimationProps) {
         }}
       >
         <div className="font-serif text-6xl font-bold text-foreground tracking-wide">
-          JAIN ENTERPRISES
+          Sandstone Exports
         </div>
         <div className="text-xl text-muted-foreground tracking-widest mt-4">
-          Stone Exporters
+          A unit By Jain Enterprises
         </div>
       </div>
     </div>

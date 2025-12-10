@@ -36,9 +36,31 @@
       "customWallCopingCategory": "Tailored Solutions"
     },
     "cta": {
-      "title": "Ready to Transform Your Space?",
+      "title": "Get Indian Sandstone Direct From Factory",
       "subtitle": "Get in touch with our stone experts",
       "button": "Contact Us Today"
+    }
+    ,
+    "testimonials": {
+      "title": "What our clients say",
+      "subtitle": "Real feedback from projects we've completed.",
+      "items": {
+        "1": {
+          "quote": "Jain Enterprises delivered exceptional sandstone paving for our project. The quality and finish exceeded expectations — on time and on budget.",
+          "name": "Rohit Sharma",
+          "role": "Landscape Architect"
+        },
+        "2": {
+          "quote": "Their attention to detail and customer service stood out. The cobbles look beautiful and have held up brilliantly through heavy use.",
+          "name": "Aarti Menon",
+          "role": "Project Manager"
+        },
+        "3": {
+          "quote": "We chose Jain Enterprises for a large commercial job — the slabs were consistent, and installation was smooth thanks to their team.",
+          "name": "Suresh Patel",
+          "role": "General Contractor"
+        }
+      }
     }
   },
   "about": {

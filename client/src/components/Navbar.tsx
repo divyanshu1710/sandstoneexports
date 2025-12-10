@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
-import logoImage from "@assets/logo.jpg";
+import logoImage from "@assets/logop.png";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -63,13 +63,13 @@ export default function Navbar() {
                 data-testid={`link-nav-${link.path.replace("/", "") || "home"}`}
                 className={`text-sm font-medium transition-all duration-300 relative group ${
                   location === link.path
-                    ? "text-primary"
-                    : "text-foreground hover:text-primary"
+                    ? "text-[#ed5a2a]"
+                    : "text-foreground hover:text-[#ed5a2a]"
                 }`}
               >
                 {link.label}
                 <span
-                  className={`absolute bottom-0 left-0 h-0.5 bg-primary transition-all duration-300 ${
+                  className={`absolute bottom-0 left-0 h-0.5 bg-[#ed5a2a] transition-all duration-300 ${
                     location === link.path
                       ? "w-full"
                       : "w-0 group-hover:w-full"
@@ -88,7 +88,11 @@ export default function Navbar() {
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           data-testid="button-mobile-menu"
         >
-          {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          {isMobileMenuOpen ? (
+            <X className="h-6 w-6 text-[#ed5a2a]" />
+          ) : (
+            <Menu className="h-6 w-6 text-[#ed5a2a]" />
+          )}
         </Button>
       </div>
 
@@ -101,10 +105,10 @@ export default function Navbar() {
                   onClick={() => setIsMobileMenuOpen(false)}
                   data-testid={`link-mobile-${link.path.replace("/", "") || "home"}`}
                   className={`text-base font-medium transition-colors ${
-                    location === link.path
-                      ? "text-primary"
-                      : "text-foreground hover:text-primary"
-                  }`}
+                      location === link.path
+                        ? "text-[#ed5a2a]"
+                        : "text-foreground hover:text-[#ed5a2a]"
+                    }`}
                 >
                   {link.label}
                 </a>

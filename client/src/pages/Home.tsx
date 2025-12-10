@@ -5,6 +5,7 @@ import HeroCarousel from "@/components/HeroCarousel";
 import StatsSection from "@/components/StatsSection";
 import ProductCard from "@/components/ProductCard";
 import LogoAnimation from "@/components/LogoAnimation";
+import Testimonials from "@/components/Testimonials";
 import { Button } from "@/components/ui/button";
 import marbleImage from "@assets/generated_images/SEJE1_page-0001.jpg";
 import graniteImage from "@assets/generated_images/Cobbles _20251118_125558_0000_page-0004.jpg";
@@ -122,6 +123,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Testimonials />
 
       <StatsSection />
 

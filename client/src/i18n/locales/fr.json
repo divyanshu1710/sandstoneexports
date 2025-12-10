@@ -40,6 +40,28 @@
       "subtitle": "Contactez nos experts en pierre",
       "button": "Contactez-nous Aujourd'hui"
     }
+    ,
+    "testimonials": {
+      "title": "Ce que nos clients disent",
+      "subtitle": "Retours réels de projets que nous avons réalisés.",
+      "items": {
+        "1": {
+          "quote": "Jain Enterprises a fourni un pavage en grès exceptionnel pour notre projet. La qualité et la finition ont dépassé les attentes — à l'heure et dans le budget.",
+          "name": "Rohit Sharma",
+          "role": "Architecte paysagiste"
+        },
+        "2": {
+          "quote": "Leur attention aux détails et le service client se sont démarqués. Les pavés sont magnifiques et ont très bien résisté à une utilisation intensive.",
+          "name": "Aarti Menon",
+          "role": "Chef de projet"
+        },
+        "3": {
+          "quote": "Nous avons choisi Jain Enterprises pour un grand chantier commercial — les dalles étaient homogènes et l'installation a été fluide grâce à leur équipe.",
+          "name": "Suresh Patel",
+          "role": "Entrepreneur général"
+        }
+      }
+    }
   },
   "about": {
     "hero": {
