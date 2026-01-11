@@ -98,9 +98,9 @@
     "monday": "Monday - Friday: 9:00 AM - 6:00 PM",
     "saturday": "Saturday: 10:00 AM - 4:00 PM",
     "sunday": "Sunday: Closed",
-    "phone": "+91 98765 43210",
-    "email": "info@jainenterprises.com",
-    "address": "123 Stone Plaza, Jaipur, Rajasthan 302001, India"
+    "phone": "+91 7340226251",
+    "email": "support@sandstoneexports.com",
+    "address": "Sandstone Exports By Jain Enterprises\nBIJOLIYA, opp. HP Petrol Pump, Berisal, Rajasthan 311602"
   },
   "infrastructure": {
     "hero": {
@@ -145,14 +145,18 @@
         "description": "We carefully select premium natural stones from the finest quarries around the world. Our expert team evaluates each stone for quality, durability, and aesthetic appeal."
       },
       "step2": {
+        "title": "The First Cut",
+        "description": "Our master stonecutters make the initial cuts to split raw blocks into workable pieces. This critical first step sets the foundation for the entire production process, ensuring optimal material yield and quality."
+      },
+      "step3": {
         "title": "Precision Cutting",
         "description": "Using state-of-the-art machinery, we cut and shape each stone to exact specifications. Our advanced technology ensures minimal waste and maximum precision."
       },
-      "step3": {
+      "step4": {
         "title": "Quality Control",
         "description": "Every piece undergoes rigorous quality inspection. We ensure each stone meets our strict standards for finish, dimensions, and structural integrity."
       },
-      "step4": {
+      "step5": {
         "title": "Packaging & Delivery",
         "description": "Stones are carefully packaged to prevent damage during transit. We coordinate logistics to ensure timely delivery to destinations worldwide."
       }
@@ -169,7 +173,14 @@
       "jumboSlab": "Jumbo Slab",
       "steps": "Steps",
       "cobbles": "Cobbles",
-      "wallCladding": "Wall Cladding"
+      "wallCladding": "Wall Cladding",
+      "bullnoseSandstone": "Bullnose Sandstone"
+    }
+  },
+  "product": {
+    "availableColors": {
+      "title": "Available Colors",
+      "description": "Choose from our wide range of premium stone colors. Each color brings unique natural variations and character to your project."
     }
   },
   "common": {

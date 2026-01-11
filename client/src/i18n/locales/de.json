@@ -98,9 +98,9 @@
     "monday": "Montag - Freitag: 9:00 Uhr - 18:00 Uhr",
     "saturday": "Samstag: 10:00 Uhr - 16:00 Uhr",
     "sunday": "Sonntag: Geschlossen",
-    "phone": "+91 98765 43210",
-    "email": "info@jainenterprises.com",
-    "address": "123 Stone Plaza, Jaipur, Rajasthan 302001, Indien"
+    "phone": "+91 7340226251",
+    "email": "support@sandstoneexports.com",
+    "address": "Sandstone Exports By Jain Enterprises\nBIJOLIYA, opp. HP Petrol Pump, Berisal, Rajasthan 311602"
   },
   "infrastructure": {
     "hero": {
@@ -145,14 +145,18 @@
         "description": "Wir wählen sorgfältig hochwertige Natursteine aus den besten Steinbrüchen der Welt aus. Unser Expertenteam bewertet jeden Stein auf Qualität, Haltbarkeit und ästhetische Ausstrahlung."
       },
       "step2": {
+        "title": "Der Erste Schnitt",
+        "description": "Unsere Meistersteinmetze machen die anfänglichen Schnitte, um Rohblöcke in bearbeitbare Teile zu teilen. Dieser kritische erste Schritt legt den Grundstein für den gesamten Produktionsprozess."
+      },
+      "step3": {
         "title": "Präzisionsschneiderei",
         "description": "Mit hochmoderner Maschinen schneiden und formen wir jeden Stein nach exakten Vorgaben. Unsere fortschrittliche Technologie gewährleistet minimalen Abfall und maximale Präzision."
       },
-      "step3": {
+      "step4": {
         "title": "Qualitätskontrolle",
         "description": "Jedes Stück unterliegt einer strengen Qualitätsprüfung. Wir stellen sicher, dass jeder Stein unsere strengen Anforderungen an Oberflächenbearbeitung, Dimensionen und strukturelle Integrität erfüllt."
       },
-      "step4": {
+      "step5": {
         "title": "Verpackung und Lieferung",
         "description": "Steine werden sorgfältig verpackt, um Beschädigungen während des Transits zu verhindern. Wir koordinieren die Logistik, um eine rechtzeitige Lieferung zu Zielen weltweit zu gewährleisten."
       }
@@ -169,7 +173,14 @@
       "jumboSlab": "Jumbo-Platte",
       "steps": "Stufen",
       "cobbles": "Pflastersteine",
-      "wallCladding": "Wandverkleidung"
+      "wallCladding": "Wandverkleidung",
+      "bullnoseSandstone": "Bullnose-Sandstein"
+    }
+  },
+  "product": {
+    "availableColors": {
+      "title": "Verfügbare Farben",
+      "description": "Wählen Sie aus unserer breiten Palette von Premium-Steinfarben. Jede Farbe bringt einzigartige natürliche Variationen und Charakter zu Ihrem Projekt."
     }
   },
   "common": {

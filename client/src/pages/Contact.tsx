@@ -32,7 +32,7 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold text-lg mb-2 heading-color">{t("contact.callUs")}</h3>
                       <a
-                        href="tel:+919876543210"
+                        href="tel:+917340226251"
                         className="text-muted-foreground hover:text-primary transition-colors"
                         data-testid="link-contact-phone"
                       >
@@ -48,7 +48,7 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold text-lg mb-2 heading-color">{t("contact.emailUs")}</h3>
                       <a
-                        href="mailto:info@jainenterprises.com"
+                        href="mailto:support@sandstoneexports.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                         data-testid="link-contact-email"
                       >

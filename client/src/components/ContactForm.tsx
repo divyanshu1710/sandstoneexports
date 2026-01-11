@@ -13,6 +13,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { useToast } from "@/hooks/use-toast";
+import { useState } from "react";
 
 const contactSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -25,6 +26,7 @@ type ContactFormData = z.infer<typeof contactSchema>;
 
 export default function ContactForm() {
   const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const form = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
     defaultValues: {
@@ -35,13 +37,41 @@ export default function ContactForm() {
     },
   });
 
-  const onSubmit = (data: ContactFormData) => {
-    console.log("Form submitted:", data);
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for contacting us. We'll get back to you soon.",
-    });
-    form.reset();
+  const onSubmit = async (data: ContactFormData) => {
+    setIsSubmitting(true);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for contacting us. We'll get back to you soon.",
+        });
+        form.reset();
+      } else {
+        const error = await response.json();
+        toast({
+          title: "Error",
+          description: error.error || "Failed to send message. Please try again.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      console.error("Error sending message:", error);
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -130,8 +160,9 @@ export default function ContactForm() {
             type="submit"
             className="w-full h-14 bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-semibold rounded-lg"
             data-testid="button-submit"
+            disabled={isSubmitting}
           >
-            Send Message
+            {isSubmitting ? "Sending..." : "Send Message"}
           </Button>
         </form>
       </Form>

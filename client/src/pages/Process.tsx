@@ -1,6 +1,9 @@
 import { CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import facilityImage from "@assets/generated_images/SEJE1_page-0001.jpg";
+import firstCutImage from "@assets/File-1/First Cut.jpg";
+import precisionCutImage from "@assets/File-1/Precision CUt.jpg";
+import inspectionImage from "@assets/File-1/Inspection.jpg";
 import machineryImage from "@assets/generated_images/Stone_cutting_machinery_equipment_f594776a.png";
 import qualityImage from "@assets/generated_images/Quality_control_stone_inspection_d9c9f334.png";
 import Infra5Image from "@assets/generated_images/SEJEB_page-0001.jpg";
@@ -21,18 +24,24 @@ export default function Process() {
       step: 2,
       title: t("process.steps.step2.title"),
       description: t("process.steps.step2.description"),
-      image: Infra5Image,
+      image: firstCutImage,
     },
     {
       step: 3,
       title: t("process.steps.step3.title"),
       description: t("process.steps.step3.description"),
-      image: Infra2Image,
+      image: precisionCutImage,
     },
     {
       step: 4,
       title: t("process.steps.step4.title"),
       description: t("process.steps.step4.description"),
+      image: inspectionImage,
+    },
+    {
+      step: 5,
+      title: t("process.steps.step5.title"),
+      description: t("process.steps.step5.description"),
       image: Infra6Image,
     },
   ];

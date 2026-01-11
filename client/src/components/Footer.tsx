@@ -48,26 +48,26 @@ export default function Footer() {
             <h3 className="text-primary font-semibold text-lg mb-4">Get In Touch</h3>
             <div className="flex flex-col gap-4">
               <a
-                href="tel:+919876543210"
+                href="tel:+917340226251"
                 data-testid="link-phone"
                 className="flex items-center gap-3 text-gray-400 hover:text-primary transition-colors"
               >
                 <Phone className="h-5 w-5 text-primary" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 7340226251</span>
               </a>
               <a
-                href="mailto:info@jainenterprises.com"
+                href="mailto:support@sandstoneexports.com"
                 data-testid="link-email"
                 className="flex items-center gap-3 text-gray-400 hover:text-primary transition-colors"
               >
                 <Mail className="h-5 w-5 text-primary" />
-                <span className="text-sm">info@jainenterprises.com</span>
+                <span className="text-sm">support@sandstoneexports.com</span>
               </a>
               <div className="flex items-start gap-3 text-gray-400">
                 <MapPin className="h-5 w-5 text-primary mt-1" />
                 <span className="text-sm">
-                  123 Stone Export Zone<br />
-                  Industrial Area, Rajasthan 302012
+                  Sandstone Exports By Jain Enterprises<br />
+                  BIJOLIYA, opp. HP Petrol Pump, Berisal, Rajasthan 311602
                 </span>
               </div>
             </div>

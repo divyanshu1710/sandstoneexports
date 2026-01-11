@@ -98,9 +98,9 @@
     "monday": "Lundi - Vendredi: 9:00 AM - 6:00 PM",
     "saturday": "Samedi: 10:00 AM - 4:00 PM",
     "sunday": "Dimanche: Fermé",
-    "phone": "+91 98765 43210",
-    "email": "info@jainenterprises.com",
-    "address": "123 Stone Plaza, Jaipur, Rajasthan 302001, Inde"
+    "phone": "+91 7340226251",
+    "email": "support@sandstoneexports.com",
+    "address": "Sandstone Exports By Jain Enterprises\nBIJOLIYA, opp. HP Petrol Pump, Berisal, Rajasthan 311602"
   },
   "infrastructure": {
     "hero": {
@@ -145,14 +145,18 @@
         "description": "Nous sélectionnons soigneusement les pierres naturelles premium des meilleures carrières du monde. Notre équipe d'experts évalue chaque pierre pour sa qualité, sa durabilité et son attrait esthétique."
       },
       "step2": {
+        "title": "La Première Coupe",
+        "description": "Nos tailleurs de pierre maîtres font les coupes initiales pour diviser les blocs bruts en pièces utilisables. Cette étape critique initiale pose les fondations de l'ensemble du processus de production."
+      },
+      "step3": {
         "title": "Découpe de Précision",
         "description": "En utilisant des machines de pointe, nous coupons et façonnons chaque pierre selon les spécifications exactes. Notre technologie avancée assure un minimum de déchets et une précision maximale."
       },
-      "step3": {
+      "step4": {
         "title": "Contrôle de Qualité",
         "description": "Chaque pièce subit une inspection rigoureuse de la qualité. Nous nous assurons que chaque pierre répond à nos normes strictes pour la finition, les dimensions et l'intégrité structurelle."
       },
-      "step4": {
+      "step5": {
         "title": "Emballage et Livraison",
         "description": "Les pierres sont soigneusement emballées pour éviter les dommages pendant le transit. Nous coordonnons la logistique pour assurer une livraison rapide aux destinations du monde entier."
       }
@@ -169,7 +173,14 @@
       "jumboSlab": "Dalle Jumbo",
       "steps": "Escaliers",
       "cobbles": "Pavés",
-      "wallCladding": "Revêtement de Mur"
+      "wallCladding": "Revêtement de Mur",
+      "bullnoseSandstone": "Grès Bullnose"
+    }
+  },
+  "product": {
+    "availableColors": {
+      "title": "Couleurs Disponibles",
+      "description": "Choisissez parmi notre large gamme de couleurs de pierre premium. Chaque couleur apporte des variations naturelles uniques et du caractère à votre projet."
     }
   },
   "common": {

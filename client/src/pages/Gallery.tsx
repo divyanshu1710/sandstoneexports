@@ -28,6 +28,9 @@ import cobble1 from "@assets/Cobbles-_20251118_125558_0000/Cobbles _20251118_125
 // Wall Cladding images
 import cladding1 from "@assets/Cladding-_20251119_105251_0000/Cladding _20251119_105251_0000_page-0001.jpg";
 
+// Bullnose Sandstone images
+import bn1 from "@assets/BN_output/Automn Brown Bullnose.png";
+
 interface Product {
   id: string;
   name: string;
@@ -92,6 +95,13 @@ const products: Product[] = [
     shortDescription: "Premium stone cladding for stunning facades",
     image: cladding1,
     category: "Wall Cladding"
+  },
+  {
+    id: "bullnose-sandstone",
+    name: "Bullnose Sandstone",
+    shortDescription: "Premium bullnose edge sandstone for elegant finishes",
+    image: bn1,
+    category: "Bullnose Sandstone"
   }
 ];
 

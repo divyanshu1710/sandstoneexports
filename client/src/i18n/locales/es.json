@@ -98,9 +98,9 @@
     "monday": "Lunes - Viernes: 9:00 AM - 6:00 PM",
     "saturday": "Sábado: 10:00 AM - 4:00 PM",
     "sunday": "Domingo: Cerrado",
-    "phone": "+91 98765 43210",
-    "email": "info@jainenterprises.com",
-    "address": "123 Stone Plaza, Jaipur, Rajasthan 302001, India"
+    "phone": "+91 7340226251",
+    "email": "support@sandstoneexports.com",
+    "address": "Sandstone Exports By Jain Enterprises\nBIJOLIYA, opp. HP Petrol Pump, Berisal, Rajasthan 311602"
   },
   "infrastructure": {
     "hero": {
@@ -145,14 +145,18 @@
         "description": "Seleccionamos cuidadosamente piedras naturales premium de las mejores canteras del mundo. Nuestro equipo experto evalúa cada piedra por calidad, durabilidad y atractivo estético."
       },
       "step2": {
+        "title": "El Primer Corte",
+        "description": "Nuestros maestros canteros hacen los cortes iniciales para dividir bloques brutos en piezas manejables. Este paso inicial crítico establece la base para todo el proceso de producción."
+      },
+      "step3": {
         "title": "Corte de Precisión",
         "description": "Utilizando maquinaria de última generación, cortamos y damos forma a cada piedra según especificaciones exactas. Nuestra tecnología avanzada asegura desperdicio mínimo y máxima precisión."
       },
-      "step3": {
+      "step4": {
         "title": "Control de Calidad",
         "description": "Cada pieza se somete a inspección rigurosa de calidad. Aseguramos que cada piedra cumpla con nuestros estrictos estándares de acabado, dimensiones e integridad estructural."
       },
-      "step4": {
+      "step5": {
         "title": "Empaque y Entrega",
         "description": "Las piedras se empacan cuidadosamente para prevenir daños durante el tránsito. Coordinamos la logística para asegurar entrega oportuna a destinos en todo el mundo."
       }
@@ -169,7 +173,14 @@
       "jumboSlab": "Losa Jumbo",
       "steps": "Escalones",
       "cobbles": "Adoquines",
-      "wallCladding": "Revestimiento de Muro"
+      "wallCladding": "Revestimiento de Muro",
+      "bullnoseSandstone": "Arenisca Bullnose"
+    }
+  },
+  "product": {
+    "availableColors": {
+      "title": "Colores Disponibles",
+      "description": "Elija entre nuestra amplia gama de colores de piedra premium. Cada color aporta variaciones naturales únicas y carácter a su proyecto."
     }
   },
   "common": {
