@@ -117,7 +117,7 @@ export default function Gallery() {
             {t("nav.gallery")}
           </h1>
           <p className="text-lg text-muted-foreground" data-testid="text-gallery-subtitle">
-            Explore our exquisite collection of premium natural stones
+            Explore our exquisite collection of Premium Natural Stones
           </p>
         </div>
       </section>

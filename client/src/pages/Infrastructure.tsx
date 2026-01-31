@@ -3,7 +3,7 @@ import facilityImage from "@assets/generated_images/Stone_manufacturing_facility
 import machineryImage from "@assets/generated_images/Stone_cutting_machinery_equipment_f594776a.png";
 import qualityImage from "@assets/generated_images/Quality_control_stone_inspection_d9c9f334.png";
 import Infra1Image from "@assets/packaging-and-factory/new.jpeg";
-import Infra2Image from "@assets/generated_images/SEJE1_page-0003.jpg";
+import Infra2Image from "@assets/31janchanges/infra-finishing.jpeg";
 import Infra3Image from "@assets/generated_images/SEJE1_page-0006.jpg";
 import Infra4Image from "@assets/generated_images/SEJEB_page-0007.jpg";
 import Infra5Image from "@assets/generated_images/SEJEB_page-0001.jpg";

@@ -2,15 +2,19 @@ import { useTranslation } from "react-i18next";
 import Timeline from "@/components/Timeline";
 import ValueCard from "@/components/ValueCard";
 import { Award, Leaf, Heart } from "lucide-react";
-import facilityImage from "@assets/generated_images/Stone_manufacturing_facility_interior_3d6147b5.png";
+import facilityImage from "@assets/31janchanges/aboutbg.jpeg";
 import machineryImage from "@assets/generated_images/Stone_cutting_machinery_equipment_f594776a.png";
 import qualityImage from "@assets/generated_images/Quality_control_stone_inspection_d9c9f334.png";
-import Infra2Image from "@assets/generated_images/SEJE1_page-0002.jpg";
+import Infra2Image from "@assets/31janchanges/begin.jpeg";
 import Infra3Image from "@assets/generated_images/SEJE1_page-0005.jpg";
 import sandstoneImage from "@assets/generated_images/SEJEB_page-0007.jpg";
-import FacImage from "@assets/generated_images/SEJEB_page-0003.jpg";
-import Fac2Image from "@assets/generated_images/SEJE1_page-0003.jpg";
-import Fac3Image from "@assets/generated_images/SEJEB_page-0004.jpg";
+import FacImage from "@assets/31janchanges/withstone.jpeg";
+import Fac2Image from "@assets/31janchanges/aboutdown1.jpeg";
+import Fac3Image from "@assets/31janchanges/aboutnew3.jpeg";
+import capexilLogo from "@assets/certificates/capexil.png";
+import fieoLogo from "@assets/certificates/FIEO Logo Trans.png";
+import ministryLogo from "@assets/certificates/ministry-of-micro-small-and-medium-enterprises-government-of-india-industry-small-business-india-25507f02e031f82d9ab2a0d3ac3310cf.png";
+import industryCertLogo from "@assets/certificates/pngwing.com.png";
 
 export default function About() {
   const { t } = useTranslation();
@@ -96,6 +100,48 @@ export default function About() {
               title="Customer Commitment"
               description="Your satisfaction is our priority. We build lasting relationships through reliability, transparency, and exceptional service at every step."
             />
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-semibold mb-6 heading-color" data-testid="text-certificates-heading">
+              Certificates
+            </h2>
+            <div className="w-20 h-0.5 bg-primary mx-auto" />
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
+            <div className="h-40 flex items-center justify-center bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img
+                src={capexilLogo}
+                alt="Capexil Certificate"
+                className="h-32 object-contain"
+              />
+            </div>
+            <div className="h-40 flex items-center justify-center bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img
+                src={fieoLogo}
+                alt="FIEO Certificate"
+                className="h-32 object-contain"
+              />
+            </div>
+            <div className="h-40 flex items-center justify-center bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img
+                src={ministryLogo}
+                alt="Ministry Certificate"
+                className="h-32 object-contain"
+              />
+            </div>
+            <div className="h-40 flex items-center justify-center bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img
+                src={industryCertLogo}
+                alt="Industry Certificate"
+                className="h-32 object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>

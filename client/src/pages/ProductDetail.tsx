@@ -16,6 +16,7 @@ import wallCoping1 from "@assets/Wall-Coping-_20251118_125334_0000/Wall Coping _
 import wallCoping2 from "@assets/Wall-Coping-_20251118_125334_0000/Wall Coping _20251118_125334_0000_page-0002.jpg";
 import wallCoping3 from "@assets/Wall-Coping-_20251118_125334_0000/Wall Coping _20251118_125334_0000_page-0003.jpg";
 import wallCoping4 from "@assets/Wall-Coping-_20251118_125334_0000/Wall Coping _20251118_125334_0000_page-0004.jpg";
+import wallCoping5 from "@assets/31janchanges/wall coping new.jpeg";
 
 // Column Caps / Pier Caps images
 import pierCap1 from "@assets/CC_output/Automn Brown Column Cap.png";
@@ -106,10 +107,19 @@ const productDatabase: Record<string, ProductData> = {
     ,
     details: [
       { title: "4 Size Pattern (MM)", items: ["600 × 900, 600 × 600, 600 × 290, 290 × 290", "600 × 400, 400 × 400, 400 × 200, 200 × 200"] },
-      { title: "8 Size Pattern (Inches)", items: ["11.5\" × 11.5\""] },
+      { title: "8 Size Pattern (Inches)", items: [
+        "11.5\" × 11.5\"",
+        "11.5\" × 17.5\"",
+        "11.5\" × 23.5\"",
+        "11.5\" × 29.5\"",
+        "17.5\" × 17.5\"",
+        "17.5\" × 23.5\"",
+        "17.5\" × 29.5\"",
+        "23.5\" × 23.5\""
+      ]},
       { title: "Thickness", items: ["18 mm", "22 mm", "25 mm", "30 mm", "40 mm", "50 mm"] },
-      { title: "Finish", items: ["Riven", "Natural", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast", "Brushing"] },
-      { title: "Edges", items: ["Natural", "Natural Handcut (Rockface)", "Sawn cut edges"] },
+      { title: "Finish", items: ["Natural Cleft (Riven)", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast", "Brushing"] },
+      { title: "Edges", items: [ "Natural Handcut (Rockface)", "Sawn cut edges"] },
       { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
   },
@@ -118,11 +128,11 @@ const productDatabase: Record<string, ProductData> = {
     name: "Wall Copings",
     shortDescription: "Premium architectural stone coping solutions",
     description: "Wall copings provide both functional protection and aesthetic appeal to your walls. Our premium selection offers superior quality and craftsmanship, designed to withstand weather conditions while adding architectural beauty.",
-    images: [wallCoping1, wallCoping2, wallCoping3, wallCoping4],
+    images: [wallCoping1, wallCoping2, wallCoping5, wallCoping4],
     imageNames: [
       "Wall Coping _20251118_125334_0000_page-0001",
       "Wall Coping _20251118_125334_0000_page-0002",
-      "Wall Coping _20251118_125334_0000_page-0003",
+      "wall coping new",
       "Wall Coping _20251118_125334_0000_page-0004"
     ],
     features: [
@@ -137,7 +147,7 @@ const productDatabase: Record<string, ProductData> = {
     details: [
       { title: "Regular Sizes", items: ["12\" × 24\"", "14\" × 24\"", "18\" × 24\""] },
       { title: "Thickness", items: ["1.5\" inch", "2\" inch", "3\" inch", "4\" inch"] },
-      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast", "Brushing"] },
+      { title: "Finish", items: ["Natural Cleft (Riven)", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast", "Brushing"] },
       { title: "Edges", items: ["All 4 Side Rockface", "Two long side rockface + two short side sawn cut", "All 4 Side Bullnose", "Long side bullnose + 3 side sawn cut"] },
       { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
@@ -168,9 +178,9 @@ const productDatabase: Record<string, ProductData> = {
     ]
     ,
     details: [
-      { title: "Regular Sizes", items: ["24\" × 24\"", "20\" × 30\"", "36\" × 36\""] },
+      { title: "Regular Sizes", items: ["24\" × 24\"", "30\" × 30\"", "36\" × 36\""] },
       { title: "Thickness", items: ["2\" inch", "3\" inch", "4\" inch"] },
-      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast", "Brushing"] },
+      { title: "Finish", items: ["Natural Cleft (Riven)", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast", "Brushing"] },
       { title: "Edges", items: ["All 4 Side Rockface", "All 4 Side Sawn Cut", "All 4 Side Bullnose"] },
       { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
@@ -203,10 +213,11 @@ const productDatabase: Record<string, ProductData> = {
     ,
     details: [
       { title: "Regular Sizes (Inches)", items: [
-        "12\" × 48\"", "12\" × 60\"", "12\" × 72\"", "14\" × 48\"", "14\" × 60\"", "14\" × 72\"", "18\" × 48\"", "18\" × 60\"", "24\" × 48\"", "24\" × 60\"", "24\" × 72\""
+        "Width - 12\", 14\", 16\", 18\" & 24\"",
+        "Length - 36\", 48\", 60\", 72\" & 84\""
       ]},
       { title: "Thickness", items: ["2\" inch", "3\" inch"] },
-      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast"] },
+      { title: "Finish", items: ["Natural Cleft (Riven)", "Sawn", "Honed", "Tumbled", "Flamed", "Shotblast"] },
       { title: "Edges", items: ["All 4 Side Rockface", "All 4 Side Sawn Cut", "1 Long Side Rockface + 3 Side Sawn Cut", "1 Long Side Bullnose + 3 Side Sawn Cut"] },
       { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
@@ -236,7 +247,7 @@ const productDatabase: Record<string, ProductData> = {
     details: [
       { title: "Regular Sizes", items: ["24\" × 72\"", "24\" × 96\"", "24\" × 120\"", "48\" × 72\"", "48\" × 96\"", "48\" × 120\""] },
       { title: "Thickness", items: ["2\" inch", "3\" inch", "4\" inch"] },
-      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Flamed", "Shotblast"] },
+      { title: "Finish", items: ["Natural Cleft(Riven)", "Sawn", "Honed", "Flamed", "Shotblast"] },
       { title: "Edges", items: ["All 4 Side Handcut (Rockface)", "All 4 Side Sawn Edge", "1 Long Side Sawn + 3 Side Rockface", "1 Long Side Sawn + 3 Side Sawn Cut"] },
       { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
@@ -265,10 +276,13 @@ const productDatabase: Record<string, ProductData> = {
     ]
     ,
     details: [
-      { title: "Regular Size", items: ["Same as Treads (12\", 14\", 18\" series)"] },
+      { title: "Regular Sizes (Inches)", items: [
+        "Width - 12\", 14\", 16\", 18\" & 24\"",
+        "Length - 36\", 48\", 60\", 72\" & 84\""
+      ]},
       { title: "Thickness", items: ["4\" inch", "6\" inch", "8\" inch"] },
-      { title: "Finish", items: ["Natural", "Sawn", "Honed", "Flamed", "Shotblast"] },
-      { title: "Edges", items: ["Same as Treads"] },
+      { title: "Finish", items: ["Natural Cleft (Riven)", "Sawn", "Honed", "Flamed", "Shotblast"] },
+      { title: "Edges", items: ["All 4 Side Rockface", "All 4 Side Sawn Cut", "1 Long Side Rockface + 3 Side Sawn Cut", "1 Long Side Bullnose + 3 Side Sawn Cut"] },
       { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
   },
@@ -294,10 +308,10 @@ const productDatabase: Record<string, ProductData> = {
     ]
     ,
     details: [
-      { title: "Regular Size", items: ["14\" × 14\"", "14\" × 20\"", "20\" × 20\""] },
+      { title: "Regular Size", items: ["14 × 14", "14 × 20", "20× 20"] },
       { title: "Thickness", items: ["2\" inch", "3\" inch", "4\" inch"] },
       { title: "Edge", items: ["All 4 Side Sawn Edge", "All 4 Side Rockface"] },
-      { title: "Finish", items: ["Natural", "Tumbled", "Sawn Honed", "Shotblast"] },
+      { title: "Finish", items: ["Natural Cleft (Riven)", "Tumbled", "Sawn Honed", "Shotblast"] },
       { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
   },
@@ -325,7 +339,7 @@ const productDatabase: Record<string, ProductData> = {
     details: [
       { title: "Regular Size", items: ["600 × 150", "400 × 400"] },
       { title: "Thickness", items: ["15–20 mm", "10–15 mm", "15–25 mm"] },
-      { title: "Finish", items: ["Natural", "Sawn", "Splitface"] },
+      { title: "Finish", items: ["Natural Cleft (Riven)", "Sawn", "Splitface"] },
       { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm."] }
     ]
   },
@@ -354,7 +368,7 @@ const productDatabase: Record<string, ProductData> = {
       { title: "Edge Profile", items: ["Bullnose (rounded edge radius 5-10mm)", "Smooth transition", "Professional finish"] },
       { title: "Standard Sizes", items: ["24\" × 24\"", "24\" × 36\"", "36\" × 36\"", "Custom sizes available"] },
       { title: "Thickness", items: ["20 mm", "25 mm", "30 mm", "40 mm"] },
-      { title: "Finish", items: ["Polished", "Honed", "Natural", "Flamed", "Brushed"] },
+      { title: "Finish", items: ["Polished", "Honed", "Natural Cleft (Riven)", "Flamed", "Brushed"] },
       { title: "Notes", items: ["Natural stone – crafted by hand, variation ± 2 mm.", "Bullnose edge requires specialized processing."] }
     ]
   }

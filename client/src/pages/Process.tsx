@@ -2,12 +2,12 @@ import { CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import facilityImage from "@assets/generated_images/SEJE1_page-0001.jpg";
 import firstCutImage from "@assets/File-1/First Cut.jpg";
-import precisionCutImage from "@assets/File-1/Precision CUt.jpg";
+import precisionCutImage from "@assets/31janchanges/processmajdoor2.jpeg";
 import inspectionImage from "@assets/File-1/Inspection.jpg";
 import machineryImage from "@assets/generated_images/Stone_cutting_machinery_equipment_f594776a.png";
 import qualityImage from "@assets/generated_images/Quality_control_stone_inspection_d9c9f334.png";
 import Infra5Image from "@assets/generated_images/SEJEB_page-0001.jpg";
-import Infra6Image from "@assets/generated_images/SEJEB_page-0009.jpg";
+import Infra6Image from "@assets/31janchanges/packaging.jpeg";
 import Infra2Image from "@assets/generated_images/SEJE1_page-0002.jpg";
 
 export default function Process() {

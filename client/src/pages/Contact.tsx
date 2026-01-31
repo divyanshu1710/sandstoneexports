@@ -32,7 +32,7 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold text-lg mb-2 heading-color">{t("contact.callUs")}</h3>
                       <a
-                        href="tel:+917340226251"
+                        href="tel:+919251226251"
                         className="text-muted-foreground hover:text-primary transition-colors"
                         data-testid="link-contact-phone"
                       >
@@ -112,7 +112,7 @@ export default function Contact() {
             Our team is available on WhatsApp for quick queries
           </p>
           <a
-            href="https://wa.me/917340226251"
+            href="https://wa.me/919251226251"
             target="_blank"
             rel="noopener noreferrer"
             data-testid="link-whatsapp"

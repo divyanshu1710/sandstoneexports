@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import logoImage from "@assets/logop.png";
+import brochurePdf from "@assets/31janchanges/Sandstone Exports.pdf";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,6 +30,15 @@ export default function Navbar() {
     { path: "/contact", label: t("nav.contact") },
   ];
 
+  const handleDownloadBrochure = () => {
+    const link = document.createElement("a");
+    link.href = brochurePdf;
+    link.download = "Sandstone Exports Brochure.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -47,10 +57,10 @@ export default function Navbar() {
             />
             <div className="flex flex-col">
               <span className="font-serif text-xl md:text-2xl font-bold text-foreground tracking-wide">
-                JAIN ENTERPRISES
+                Sandstone Exports
               </span>
               <span className="text-xs text-muted-foreground tracking-widest">
-                Stone Exporters
+                A unit of Jain Enterprises
               </span>
             </div>
           </div>
@@ -78,6 +88,14 @@ export default function Navbar() {
               </a>
             </Link>
           ))}
+          <Button
+            onClick={handleDownloadBrochure}
+            className="bg-[#ed5a2a] hover:bg-[#d94a1a] text-white flex items-center gap-2"
+            data-testid="button-download-brochure"
+          >
+            <Download className="h-4 w-4" />
+            Brochure
+          </Button>
           <LanguageSwitcher />
         </nav>
 
@@ -114,6 +132,17 @@ export default function Navbar() {
                 </a>
               </Link>
             ))}
+            <Button
+              onClick={() => {
+                handleDownloadBrochure();
+                setIsMobileMenuOpen(false);
+              }}
+              className="bg-[#ed5a2a] hover:bg-[#d94a1a] text-white w-full flex items-center justify-center gap-2"
+              data-testid="button-download-brochure-mobile"
+            >
+              <Download className="h-4 w-4" />
+              Download Brochure
+            </Button>
             <div className="pt-4 border-t border-border">
               <LanguageSwitcher />
             </div>

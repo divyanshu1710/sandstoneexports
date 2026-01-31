@@ -16,8 +16,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Crafting excellence in premium stone exports for over three decades.
-              Your trusted partner for quality natural stones.
+              Supplying India’s Finest Sandstone Across the Globe Since 25 Years.
+              Your Trusted partner for quality indian sandstone
             </p>
           </div>
 
@@ -31,16 +31,34 @@ export default function Footer() {
                 { path: "/infrastructure", label: "Infrastructure" },
                 { path: "/process", label: "Process" },
                 { path: "/contact", label: "Contact Us" },
-              ].map((link) => (
-                <Link key={link.path} href={link.path}>
+                {
+                  path: "https://www.linkedin.com/company/jain-enterprises-sandstone-exports/",
+                  label: "LinkedIn",
+                  external: true,
+                },
+              ].map((link) =>
+                link.external ? (
                   <a
+                    key={link.path}
+                    href={link.path}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     data-testid={`link-footer-${link.label.toLowerCase().replace(" ", "-")}`}
                     className="text-gray-400 hover:text-primary transition-colors text-sm"
                   >
                     {link.label}
                   </a>
-                </Link>
-              ))}
+                ) : (
+                  <Link key={link.path} href={link.path}>
+                    <a
+                      data-testid={`link-footer-${link.label.toLowerCase().replace(" ", "-")}`}
+                      className="text-gray-400 hover:text-primary transition-colors text-sm"
+                    >
+                      {link.label}
+                    </a>
+                  </Link>
+                )
+              )}
             </nav>
           </div>
 
@@ -48,12 +66,12 @@ export default function Footer() {
             <h3 className="text-primary font-semibold text-lg mb-4">Get In Touch</h3>
             <div className="flex flex-col gap-4">
               <a
-                href="tel:+917340226251"
+                href="tel:+919251226251"
                 data-testid="link-phone"
                 className="flex items-center gap-3 text-gray-400 hover:text-primary transition-colors"
               >
                 <Phone className="h-5 w-5 text-primary" />
-                <span className="text-sm">+91 7340226251</span>
+                <span className="text-sm">+91 9251226251</span>
               </a>
               <a
                 href="mailto:support@sandstoneexports.com"
